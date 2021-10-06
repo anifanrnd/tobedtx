@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="tobedtx_Homepage_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="kr">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>tobeDTX</title>
+    <meta name="description" content="1080 올인원 디지털 헬스케어 TOBE DTX">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <%--  --%>
+    <meta name="naver-site-verification" content="c9ad1e064a51c077a3a50ef9542f1fc14cd275ec" />
+    <meta name="google-site-verification" content="GYgZr81ta3TFPIE0YGa1FJ_Oupvwe-QCGbaFXhpjboI" />
+    <meta name="robots" content="TOBE DTX" />
+    <meta name="robots" content="TOBE DTX" />
+    <meta name="robots" content="TOBE DTX" />
+    <meta name="keywords" content="TOBE DTX">
+   <meta data-n-head="ssr" data-hid="keyword" name="keyword" content="TOBE DTX">
+    <!--OpenGraph-->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:site_name" content="TOBE DTX" />
+    <meta property="og:title" content="TOBE DTX">
+    <meta property="og:description" content="TOBE DTX">
+    <meta property="og:url" content="http://www.tobedtx.com">
+    <link rel="canonical" href="http://www.tobedtx.com">
+    <link rel="shortlink" href="http://www.tobedtx.com">
+    <!--  Default favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <!--  Custom favicon  -->
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta content="#ffffff" name="msapplication-TileColor" />
+    <meta content="#ffffff" name="theme-color" />
+    <meta content="tobedtx" name="apple-mobile-web-app-title" />
+    <meta content="tobedtx" name="application-name" />
+    <!--Link Nomalizing CSS-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!--Link Style CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <!--Link jQuery-->
+    <script src="js/jquery.min.js"></script>
+    <!--Script-->
+    <script>        
+        $(document).ready(function () {
+        function checkBroswer() {
+
+            var agent = navigator.userAgent.toLowerCase(),
+                name = navigator.appName,
+                browser = '';
+
+            // MS 계열 브라우저를 구분
+            if (name === 'Microsoft Internet Explorer' || agent.indexOf('trident') > -1 || agent.indexOf('edge/') > -1) {
+                browser = 'ie';
+                if (name === 'Microsoft Internet Explorer') { // IE old version (IE 10 or Lower)
+                    agent = /msie ([0-9]{1,}[\.0-9]{0,})/.exec(agent);
+                    browser += parseInt(agent[1]);
+                } else { // IE 11+
+                    if (agent.indexOf('trident') > -1) { // IE 11
+                        browser += 11;
+                    } else if (agent.indexOf('edge/') > -1) { // Edge
+                        browser = 'edge';
+                    }
+                }
+            } else if (agent.indexOf('safari') > -1) { // Chrome or Safari
+                if (agent.indexOf('opr') > -1) { // Opera
+                    browser = 'opera';
+                } else if (agent.indexOf('chrome') > -1) { // Chrome
+                    browser = 'chrome';
+                } else { // Safari
+                    browser = 'safari';
+                }
+            } else if (agent.indexOf('firefox') > -1) { // Firefox
+                browser = 'firefox';
+            }
+
+            return browser;
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <a href="#container" id="skipnav">본문 바로가기</a>
+        <div id="wrapper">
+            <header class="header"> 
+                <div class="header_div_wrapper section_inner">
+                    <div class="logo_wrapper">
+                        <h1 class="blind">tobedtx</h1>
+                        <a class="logo" href="Default.aspx" title="tobedtx">
+                            <img src="img/logo.svg" alt="tobedtx LOGO" class="img_logo" />
+                        </a>
+                    </div>
+                    <div class="nav_wrapper">
+                        <h2 class="blind">tobedtx navigation</h2>
+                        <div class="nav">
+                            <div class="nav_menu">
+                                <h3><a href="/default.aspx">회사소개<span class="bar"></span></a></h3>
+                            </div>
+                            <div class="nav_menu">
+                                <h3><a href="/tech.aspx">핵심기술<span class="bar"></span></a></h3>
+                            </div>
+                            <div class="nav_menu">
+                                <h3><a href="/contact.aspx">제휴문의<span class="bar"></span></a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mob_menu_wrapper">
+                        <p class="mob_menu">
+                            <span class="btn_mob_menu">
+                                <span class="mob_menu_line mob_menu_line0"></span>
+                                <span class="mob_menu_line mob_menu_line1"></span>
+                                <span class="mob_menu_line mob_menu_line2"></span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+                <div class="footer_div_wrapper">
+                    <div class="logo_foot_wrapper foot_div">
+                        <img src="img/logo.svg" alt="logo" />
+                    </div>
+                    <div class="foot_info_wrapper">
+                        <div class="foot_div">
+                            <span>대표이사 : </span>
+                            <address>주소 : 서울특별시 강남구 봉은사로 625</address>
+                            <span>대표전화 : 02-522-1125</span>
+                        </div>
+                        <div class="foot_div">
+                            <span>Copyrights ⓒ TOBEDTX. All Rights Reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+         </div>  
+    </form>
+</body>
+</html>

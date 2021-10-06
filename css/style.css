@@ -1,0 +1,453 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: "Noto Sans CJK KR";
+    src: url("../font/notosanskr-thin.woff");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Noto Sans CJK KR";
+    src: url("../font/notosanskr-light.woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Noto Sans CJK KR";
+    src: url("../font/notosanskr-regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Sans CJK KR";
+    src: url("../font/notosanskr-bold.woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Noto Sans CJK KR";
+    src: url("../font/notosanskr-black.woff");
+    font-weight: 800;
+}
+
+img {
+    width: 100%
+}
+
+.section_inner {
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+.section_title{
+    padding-top: 120px;
+    padding-bottom:24px;
+    font-size:40px;
+    font-weight:400;
+}
+
+.prevent_scroll {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.cf {
+    zoom: 1;
+}
+
+    .cf:after {
+        clear: both;
+        display: block;
+        content: '';
+    }
+
+.anchor {
+    display: block;
+    height: 80px;
+    margin-top: -80px; /* 헤더의 height와 동일한 값 */
+    visibility: hidden;
+}
+/*폰트설정*/
+body, button, input, select, td, textarea, th {
+    font-family: 'Noto Sans CJK KR', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, Microsoft NeoGothic, Arial, Droid sans, sans-serif;
+    font-variation-settings: 'wght' 200;
+    /*font-size: 100%;*/
+    -webkit-text-size-adjust: 100%;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: unset;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    color: #333;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+/* header */
+#skipnav {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background: #333;
+    font-size: 1.6em;
+    text-align: center;
+    z-index: 9;
+    display: block;
+}
+
+    #skipnav:focus {
+        position: relative;
+        top: 0;
+    }
+
+.logo_wrapper {
+    line-height: 80px;
+}
+
+.logo {
+    display: block;
+    width: 120px;
+}
+
+    .logo img {
+        vertical-align: middle;
+    }
+
+.img_logo_b {
+    display: none;
+}
+
+.header {
+    height: 80px;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all ease 0.5s;
+    background: rgba(255, 255, 255, 0.1);
+    /*border-bottom: 1px solid rgba(255,255,255,0.2);*/
+}
+
+.header_div_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
+    .nav a {
+        position: relative;
+        display: inline-block;
+        height: 80px;
+        padding: 0 24px;
+        line-height: 80px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+.bar {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #FFB300;
+}
+.nav a:hover {
+    color: #FFB300
+}
+
+.nav a:hover .bar {
+    width: 60%;
+    transition: all .2s ease-in;
+}
+
+.mob_menu_wrapper {
+    display: none;
+}
+/* visual */
+.visual {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/main.jpg);
+}
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(7, 7, 7, 0.6) 19.27%, rgba(7, 7, 7, 0.42) 67.11%, rgba(7, 7, 7, 0) 100%);
+    z-index: 5;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.slogan_wrapper {
+    position: absolute;
+    max-width:1064px;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    z-index: 6;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    z-index:6;
+}
+.slogan p{
+    font-weight:600;
+}
+/*mission*/
+.mission .layout{
+    display:flex;
+}
+.mission .layout .box{
+    width:50%;
+}
+.mission .subtit {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFB300;
+    padding-bottom:24px;
+}
+.mission .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mission .content img {
+    display: block;
+    width: 80%;
+    max-width: 340px;
+    margin: 18px auto;
+}
+.mission p {
+    font-size:20px;
+    font-weight:600;
+}
+.value .column {
+    display: flex;
+    flex-direction:column;
+}
+.value .group {
+    display: flex;
+    margin-bottom:36px;
+}
+.value .group img {
+    width: 64px;
+    height: auto;
+    margin-right: 24px;
+}
+    /* footer */
+    footer {
+        padding: 36px 0;
+        border-top: 1px solid rgba(0,0,0,.05);
+        background: #303030;
+    }
+
+.logo_foot_wrapper {
+    width: 120px;
+    padding-bottom: 24px;
+    text-align: center
+}
+
+.foot_div {
+    margin: 0 auto;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+    .foot_div a {
+        color: #999;
+    }
+
+    .foot_div address {
+        display: inline;
+    }
+
+/* media query */
+@media (max-width: 960px) {
+    /* header */
+    .nav a {
+        padding: 0 12px;
+    }
+    /* visual */
+    .slogan {
+        font-size: 32px;
+    }
+}
+
+    @media (max-width: 767px) {
+        /* header */
+        .header {
+            height: 48px;
+            background: #fff;
+        }
+
+        .logo_wrapper {
+            line-height: 48px;
+        }
+
+        .logo {
+            width: 142px;
+        }
+
+        .img_logo {
+            display: none;
+        }
+
+        .img_logo_b {
+            display: initial;
+        }
+
+        .nav_wrapper {
+            position: absolute;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            overflow: hidden;
+            height: 100vh;
+            background: #fff;
+            transition: right .5s
+        }
+
+            .nav_wrapper.on {
+                right: 0;
+                transition: all .5s
+            }
+
+        .nav {
+            position: fixed;
+            top: 48px;
+            display: block;
+            height: 100%;
+            overflow: hidden;
+        }
+
+            .nav a {
+                display: block;
+                width: 100%;
+                height: 36px;
+                padding: 0 24px;
+                line-height: 36px;
+                color: #333;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+        .bar {
+            position: absolute;
+            bottom: 0;
+            left: 24px;
+            right: auto;
+            content: '';
+            width: 0;
+            height: 2px;
+            background: #333;
+        }
+
+        .nav a:hover .bar {
+            width: 50%;
+            transition: all .3s ease-in;
+        }
+
+        .ico_blog {
+            background: url(../img/icon_b_b.png);
+            width: 20px;
+            height: 20px;
+            background-size: 100%;
+        }
+
+        .mob_menu_wrapper {
+            display: block;
+            padding: 2px 0;
+        }
+
+        .btn_mob_menu {
+            position: absolute;
+            right: 4px;
+            display: block;
+            width: 44px;
+            height: 44px;
+            cursor: pointer;
+        }
+
+        .menu_close .mob_menu_line0 {
+            transform: rotate(45deg);
+            top: 21.5px;
+        }
+
+        .menu_close .mob_menu_line1 {
+            opacity: 0;
+        }
+
+        .menu_close .mob_menu_line2 {
+            transform: rotate(-45deg);
+            bottom: 21.5px;
+        }
+
+        .mob_menu_line {
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 1px;
+            background: #333;
+        }
+
+        .black .mob_menu_line {
+            background: #333;
+        }
+
+        .mob_menu_line0 {
+            top: 14px;
+            left: 50%;
+            margin-left: -12px;
+        }
+
+        .mob_menu_line1 {
+            top: 50%;
+            left: 50%;
+            margin-left: -12px
+        }
+
+        .mob_menu_line2 {
+            bottom: 14px;
+            left: 50%;
+            margin-left: -12px
+        }
+
+        /* footer */
+        .logo_foot_wrapper {
+            width: 142px;
+        }
+        /* visual */
+        .slogan {
+            font-size: 30px;
+            padding: 0 10%;
+        }
+        
+}
