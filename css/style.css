@@ -45,7 +45,18 @@ img {
     font-size:40px;
     font-weight:400;
 }
+.section_subtit {
+    color: #606060;
+    margin-bottom:40px;
+}
 
+.button {
+    height: 52px;
+    line-height: 52px;
+    max-width: 240px;
+    border-radius: 30px;
+    text-align: center;
+}
 .prevent_scroll {
     height: 100vh;
     overflow-y: hidden;
@@ -261,6 +272,175 @@ body, button, input, select, td, textarea, th {
     height: auto;
     margin-right: 24px;
 }
+/* healthCare*/
+.healthCare{
+    padding-bottom:80px;
+}
+.healthCare .layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.care_item{
+    width:40%;
+    text-align:center;
+}
+.care_item img {
+    max-width: 414px;
+}
+.care_item .button {
+    position: relative;
+    border: 2px solid #FFB300;
+    margin: 24px auto;
+    cursor: pointer;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    outline: none;
+    color: #FFB300;
+    font-weight:600;
+}
+    .care_item .button:hover {
+        background: #FFB300;
+    }
+.material-bubble {
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    box-shadow: none;
+}
+.material-bubble .hover {
+    display:none;
+}
+.material-bubble:hover {
+    color: #303030;
+}
+.material-bubble:hover .init{
+    display:none;
+}
+.material-bubble:hover .hover{
+    display:block;
+}
+
+.material-bubble::after {
+    content: "";
+    text-align:center;
+    color: #303030;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    background-color: #FFB300;
+    border-color: transparent;
+    border-radius: 50%;
+    transform: translate(0, -90px) scale(0.1);
+    opacity: 0;
+    z-index: -1;
+    transition: transform .3s, opacity 0.3s, background-color 0.3s;
+}
+.material-bubble:hover::after {
+    opacity: 1;
+    transform-origin: 50%;
+    transform: scale(1) translate(0, -90px);
+}
+
+    .care_item .left:nth-child(3) {
+        background: linear-gradient(to left, rgba(0, 0, 0, .6), rgba(0, 0, 0, .4));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .care_item .left:nth-child(2) {
+        background: linear-gradient(to left, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .care_item .left:nth-child(1) {
+        background: linear-gradient(to left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .05));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .care_item .right:nth-child(1) {
+        background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .4));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .care_item .right:nth-child(2) {
+        background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .3));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .care_item .right:nth-child(3) {
+        background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .care_item .right:nth-child(4) {
+        background: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .05));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+.care_item.side{
+    width:30%;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:42px;
+}
+/* industry */
+.industry {
+    background: #303030;
+    color: #fff;
+}
+.industry .section_title, .industry .section_subtit{
+    color:#fff;
+}
+.industry .layout{
+    display:flex;
+}
+.worker, .state{
+    width:50%;
+}
+.worker img{
+    max-width:434px;
+}
+.state{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.risk {
+    color: #DEDEDE;
+    margin-bottom:24px;
+}
+    .risk .percent {
+        color: #FFB300;
+        font-size:48px;
+        font-weight:600;
+        padding-right:12px;
+    }
+.message {
+    background: url(../img/quote0.svg) no-repeat top left;
+}
+    .message span {
+        display:inline-block;
+        padding: 40px;
+        font-size: 36px;
+        background: url(../img/quote1.svg) no-repeat bottom right;
+    }
+.industry .button {
+    position: relative;
+    width: 240px;
+    border: 2px solid #FFB300;
+    cursor: pointer;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    outline: none;
+    color: #FFB300;
+    font-weight: 600;
+}
+    .industry .button:hover {
+        background: #FFB300;
+        color:#303030;
+    }
     /* footer */
     footer {
         padding: 36px 0;
