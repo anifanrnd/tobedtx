@@ -213,31 +213,68 @@ body, button, input, select, td, textarea, th {
 
 .slogan_wrapper {
     position: absolute;
-    max-width:1064px;
-    bottom: 10%;
+    max-width: 1064px;
+    bottom: 5%;
     left: 0;
     right: 0;
-    margin:0 auto;
+    margin: 0 auto;
     z-index: 6;
+    transition: ease 1s;
 }
-
+.slogan_wrapper_act{
+    bottom:10%;
+}
 .slogan {
     color: #fff;
     font-size: 48px;
     font-weight: 200;
     text-shadow: 3px 3px 10px rgba(0,0,0,0.1);
-    z-index:6;
+    z-index: 6;
 }
 .slogan p{
     font-weight:600;
 }
-/*mission*/
-.mission .layout{
-    display:flex;
+
+/*광현 추가*/
+.scroll_box {
+    position: sticky;
+    top: 10%;
 }
-.mission .layout .box{
-    width:50%;
+.subtit_ani {
+    opacity: 0;
+    transition: ease 1s;
 }
+    .subtit_ani.act{
+        opacity:1;
+    }
+.value .group.group_ani {
+    padding-left: 20px;
+    opacity: 0;
+    transition: ease 1.5s;
+}
+    .value .group.group_ani.act {
+        padding-left: 0;
+        opacity: 1;
+    }
+    /*mission*/
+    .layout_box {
+        height: 200vh;
+        position: relative;
+    }
+.mission .layout {
+    display: flex;
+}
+.mission .layout .box {
+    width: 50%;
+}
+.mission .layout .box.box_ani{
+    width: 50%;
+    transition:ease 1s;
+    opacity:0;
+}
+    .mission .layout .box.box_ani.act {
+        opacity: 1;
+    }
 .mission .subtit {
     font-weight: 600;
     font-size: 20px;
@@ -248,7 +285,9 @@ body, button, input, select, td, textarea, th {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
+
 .mission .content img {
     display: block;
     width: 80%;
