@@ -94,5 +94,132 @@
                 </div>
             </div>
         </section>
+        <section id="partner" class="partner">
+            <div class="section_inner">
+                <h2 class="section_title">이분들과 함께하고 있습니다</h2>
+                <div class="layout">
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="/img/man0.jpg" alt="김병조" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김병조</p>
+                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                            </div>
+                            <div class="history">
+                                <p>고려대학교의료원산학협력단장</p>
+                                <p>고려대학교의학연구처장</p>
+                                <p>Korean Delegate,</p>
+                                <p>International Federation of Clinical Neuro-physiology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="/img/man0.jpg" alt="김병조" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김병조</p>
+                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                            </div>
+                            <div class="history">
+                                <p>고려대학교의료원산학협력단장</p>
+                                <p>고려대학교의학연구처장</p>
+                                <p>Korean Delegate,</p>
+                                <p>International Federation of Clinical Neuro-physiology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="/img/man0.jpg" alt="김병조" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김병조</p>
+                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                            </div>
+                            <div class="history">
+                                <p>고려대학교의료원산학협력단장</p>
+                                <p>고려대학교의학연구처장</p>
+                                <p>Korean Delegate,</p>
+                                <p>International Federation of Clinical Neuro-physiology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="/img/man0.jpg" alt="김병조" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김병조</p>
+                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                            </div>
+                            <div class="history">
+                                <p>고려대학교의료원산학협력단장</p>
+                                <p>고려대학교의학연구처장</p>
+                                <p>Korean Delegate,</p>
+                                <p>International Federation of Clinical Neuro-physiology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="/img/man0.jpg" alt="김병조" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김병조</p>
+                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                            </div>
+                            <div class="history">
+                                <p>고려대학교의료원산학협력단장</p>
+                                <p>고려대학교의학연구처장</p>
+                                <p>Korean Delegate,</p>
+                                <p>International Federation of Clinical Neuro-physiology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="layout">
+                    <div class="partner_logo">
+                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                    </div>
+                    <div class="partner_logo">
+                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                    </div>
+                    <div class="partner_logo">
+                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                    </div>
+                    <div class="partner_logo">
+                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="section_inner">
+                <h2 class="section_title">무엇이 궁금하신가요?</h2>
+                <div class="section_subtit">투비DTX와의 업무 제휴 / 제안 / 질문사항 등을 보내주시면  빠른 시일 내 연락드리겠습니다.</div>
+                <div class="container">
+                    <div class="group">
+                        <label for="userMail">메일주소</label>
+                        <input id="userMail" type="text" value="" placeholder="email@email.com"/>
+                    </div>
+                    <div class="group">
+                        <label for="contactTit">제목</label>
+                        <input id="contactTit" type="text" value="" placeholder="제목을 입력해주세요"/>
+                    </div>
+                    <div class="group">
+                        <label for="contactTxt">메일주소</label>
+                        <textarea id="contactTxt" placeholder="업무 제휴 / 제안 / 질문 사항을 입력해주세요"></textarea>
+                    </div>
+                    <div class="button material-bubble"><span>문의하기</span></div>
+                </div>
+            </div>
+        </section>
     </div>
 </asp:Content>

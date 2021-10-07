@@ -429,6 +429,7 @@ body, button, input, select, td, textarea, th {
 .industry {
     background: #303030;
     color: #fff;
+    padding-bottom:100px;
 }
 .industry .section_title, .industry .section_subtit{
     color:#fff;
@@ -480,12 +481,84 @@ body, button, input, select, td, textarea, th {
         background: #FFB300;
         color:#303030;
     }
-    /* footer */
-    footer {
-        padding: 36px 0;
-        border-top: 1px solid rgba(0,0,0,.05);
-        background: #303030;
+
+/* partner */
+.partner .layout{
+    display:flex;
+    flex-wrap:wrap;
+}
+.partner .member_wrap {
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    padding :18px 0;
+}
+.partner .member_wrap:nth-child(2n+1) {
+    padding-right:1%;
+}
+    .partner .member_wrap:nth-child(2n) {
+        padding-left: 1%;
     }
+.partner .img_wrap{
+    width:50%;
+    padding-right:24px;
+}
+.member_info .name {
+    margin-bottom: 20px;
+}
+.member_info .name p {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 600;
+}
+.member_info .member_pos {
+    color: #FEB200;
+    padding-top:4px;
+    font-size:14px;
+    font-weight:bold;
+}
+.member_wrap .history {
+    font-size: 14px;
+}
+.partner_logo{
+    width:23.5%;
+    padding-top:36px;
+    margin-right:2%;
+}
+    .partner_logo:nth-child(4n) {
+        margin-right: 0;
+    }
+/* contact */
+.contact{
+    padding-bottom:100px;
+}
+.container {
+    background: #303030;
+    border-radius: 12px;
+    padding: 6%;
+    color: #fff;
+}
+.contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding:8px 12px;
+    margin:6px 0 24px;
+}
+.contact textarea {
+    height:240px;
+}
+.contact .button{
+    margin:36px auto 0;
+    background:#FFB300;
+    cursor:pointer;
+}
+/* footer */
+footer {
+    padding: 36px 0;
+    border-top: 1px solid rgba(0,0,0,.05);
+    background: #303030;
+}
 
 .logo_foot_wrapper {
     width: 120px;
