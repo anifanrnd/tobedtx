@@ -29,15 +29,15 @@
                         <div class="box value">
                             <div class="subtit subtit_ani">Value</div>
                             <div class="column">
-                                <div class="group group_ani">
+                                <div class="group group_ani group_ani1">
                                     <img src="/img/value0.png" alt="value1" />
                                     <p>전문의료기관의<br />검증된 의료 기술</p>
                                 </div>
-                                <div class="group group_ani">
+                                <div class="group group_ani group_ani2">
                                     <img src="/img/value1.png" alt="value2" />
                                     <p>국내 1위<br />UX/UX 기술</p>
                                 </div>
-                                <div class="group group_ani">
+                                <div class="group group_ani group_ani3">
                                     <img src="/img/value2.png" alt="value3" />
                                     <p>혁신적인 <br />AI 데이터 기술</p>
                                 </div>
@@ -48,6 +48,7 @@
             </div>
         </section>
         <section id="healthCare" class="healthCare">
+            <div class="scroll_box2">
             <div class="section_inner">
                 <h2 class="section_title">당신에게 꼭 필요한 헬스케어만,</h2>
                 <div class="section_subtit">생체 신호 모니터링, 피드백과 치료가 가능한 기기, 질환별 임상학적 근거기반 AI를 통해<br />능동적인 건강 관리와 다양한 디지털 치료를 경험해보세요. </div>
@@ -78,6 +79,18 @@
 휴식 지시, 사고 발생 시의 신속한 대응으로 안전관리의 새로운 기준을 제공합니다.</div>
                 <div class="layout">
                     <div class="worker">
+                        <div class="ani_gr_w">
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                            <span class="ani_gr"></span>
+                        </div>
                         <img src="/img/worker0.png" alt="작업자상태:휴식" />
                     </div>
                     <div class="state">
