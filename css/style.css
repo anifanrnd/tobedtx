@@ -245,10 +245,15 @@ body, button, input, select, td, textarea, th {
     }
 
 /*광현 추가*/
+.worker{
+    position:relative;
+}
 .ani_gr_w {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
     .ani_gr{
         border:2px solid #FFB300;
@@ -453,63 +458,6 @@ body, button, input, select, td, textarea, th {
     }
 
 
-/* industry */
-.industry {
-    background: #303030;
-    color: #fff;
-    padding-bottom: 100px;
-}
-
-    .industry .section_title, .industry .section_subtit {
-        color: #fff;
-    }
-
-    .industry .layout {
-        display: flex;
-    }
-
-.worker, .state {
-    width: 50%;
-}
-
-    .worker img {
-        max-width: 434px;
-    }
-
-.state {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.risk {
-    color: #DEDEDE;
-    margin-bottom: 24px;
-}
-
-    .risk .percent {
-        color: #FFB300;
-        font-size: 48px;
-        font-weight: 600;
-        padding-right: 12px;
-    }
-
-.message {
-    background: url(../img/quote0.svg) no-repeat top left;
-}
-
-    .message span {
-        display: inline-block;
-        padding: 40px;
-        font-size: 36px;
-        background: url(../img/quote1.svg) no-repeat bottom right;
-    }
-
-.industry .button {
-    position: relative;
-    width: 240px;
-    border: 2px solid #FFB300;
-}
 /* healthCare*/
 .healthCare{
 /*r광현 추가*/
@@ -524,7 +472,6 @@ body, button, input, select, td, textarea, th {
 }
 .care_item{
     overflow:hidden;
-    width:40%;
     text-align:center;
 }
 .care_item img {
@@ -546,101 +493,7 @@ body, button, input, select, td, textarea, th {
         color: #303030;
     }
 
-/* partner */
-.partner .layout {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.partner .member_wrap {
-    width: 49%;
-    display: flex;
-    justify-content: space-around;
-    padding: 18px 0;
-}
-
-    .partner .member_wrap:nth-child(2n+1) {
-        padding-right: 1%;
-    }
-
-    .partner .member_wrap:nth-child(2n) {
-        padding-left: 1%;
-    }
-
-.partner .img_wrap {
-    width: 50%;
-    padding-right: 24px;
-}
-
-.member_info .name {
-    margin-bottom: 20px;
-}
-
-    .member_info .name p {
-        font-size: 20px;
-        color: #606060;
-        font-weight: 600;
-    }
-
-.member_info .member_pos {
-    color: #FEB200;
-    padding-top: 4px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.member_wrap .history {
-    font-size: 14px;
-}
-
-.partner_logo {
-    width: 23.5%;
-    padding-top: 36px;
-    margin-right: 2%;
-}
-
-    .partner_logo:nth-child(4n) {
-        margin-right: 0;
-    }
-/* contact */
-.contact {
-    padding-bottom: 100px;
-}
-
-    .contact .container {
-        background: #303030;
-        border-radius: 12px;
-        padding: 6%;
-        color: #fff;
-    }
-    .care_item .right:nth-child(1) {
-        background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .4));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    .care_item .right:nth-child(2) {
-        background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .3));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .care_item .right:nth-child(3) {
-        background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .care_item .right:nth-child(4) {
-        background: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .05));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-.care_item.side{
-    width:30%;
-    display:flex;
-    justify-content:space-between;
-    padding-bottom:42px;
-}
 /* industry */
 .industry {
     background: #303030;
@@ -754,15 +607,17 @@ body, button, input, select, td, textarea, th {
         margin-right: 0;
     }
 /* contact */
-.contact{
-    padding-bottom:100px;
+.contact {
+    padding-bottom: 100px;
 }
-.container {
-    background: #303030;
-    border-radius: 12px;
-    padding: 6%;
-    color: #fff;
-}
+
+    .contact .container {
+        background: #303030;
+        border-radius: 12px;
+        padding: 6%;
+        color: #fff;
+    }
+
 .contact input, .contact textarea {
     display: block;
     width: 100%;
@@ -777,30 +632,6 @@ body, button, input, select, td, textarea, th {
     margin:36px auto 0;
     background:#FFB300;
     cursor:pointer;
-}
-/* footer */
-footer {
-    padding: 36px 0;
-    border-top: 1px solid rgba(0,0,0,.05);
-    background: #303030;
-}
-
-.contact input, .contact textarea {
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    padding: 8px 12px;
-    margin: 6px 0 24px;
-}
-
-.contact textarea {
-    height: 240px;
-}
-
-.contact .button {
-    margin: 36px auto 0;
-    background: #FFB300;
-    cursor: pointer;
 }
 /* footer */
 footer {
@@ -975,7 +806,7 @@ footer {
         align-items: center;
     }
     .value .group{
-        width:222px;
+        width:262px;
     }
     /* healthCare */
     .care_item .item {
