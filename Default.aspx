@@ -101,7 +101,11 @@
                                     <span class="percent">10</span>%
                                 </dd>
                             </dl>
-                            <p class="message"><span>지금은 바로<br />작업하셔도 됩니다.</span></p>
+                            <p class="message">
+                                <span>지금은 바로<br />작업하셔도 됩니다.</span>
+                                <span>무리하게<br />일어나시면 안돼요!</span>
+                                <span>조금 쉬었다<br />하는 게 어떨까요?</span>
+                            </p>
                         </div>
                         <div class="button material-bubble"><span>왜 필요한가요?</span></div>
                     </div>

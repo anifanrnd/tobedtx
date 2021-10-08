@@ -279,7 +279,7 @@ body, button, input, select, td, textarea, th {
         }
 .scroll_box2 {
     position: sticky;
-    top: -5%;
+    top: 7%;
 }
 .care_item_inner{
     overflow:hidden;
@@ -325,7 +325,6 @@ body, button, input, select, td, textarea, th {
         .mission .layout .box.box_ani {
             width: 50%;
             transition: ease 1s;
-            opacity: 0;
         }
 
             .mission .layout .box.box_ani.act {
@@ -384,6 +383,7 @@ body, button, input, select, td, textarea, th {
 
     .healthCare .layout {
         overflow-x:scroll;
+        overflow:hidden;
     }
 
 .care_item {
@@ -479,10 +479,14 @@ body, button, input, select, td, textarea, th {
     justify-content: space-between;
     align-items: flex-end;
 }
-.care_item{
-    overflow:hidden;
-    text-align:center;
+.care_item {
+    -ms-overflow-style: none;
+    text-align: center;
 }
+    .care_item::-webkit-scrollbar {
+        display: none;
+    }
+
 .care_item img {
     max-width: 414px;
 }
@@ -549,21 +553,25 @@ body, button, input, select, td, textarea, th {
     background: url(../img/quote0.svg) no-repeat top left;
 }
     .message span {
-        display:inline-block;
+        display: inline-block;
         padding: 40px;
         font-size: 36px;
         background: url(../img/quote1.svg) no-repeat bottom right;
+        display: none;
     }
-.industry .button {
-    position: relative;
-    width: 240px;
-    border: 2px solid #FFB300;
-    cursor: pointer;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
-    outline: none;
-    color: #FFB300;
-    font-weight: 600;
-}
+        .message span.act{
+            display:inline;
+        }
+        .industry .button {
+            position: relative;
+            width: 240px;
+            border: 2px solid #FFB300;
+            cursor: pointer;
+            transition: color 0.5s, transform 0.2s, background-color 0.2s;
+            outline: none;
+            color: #FFB300;
+            font-weight: 600;
+        }
     .industry .button:hover {
         background: #FFB300;
         color:#303030;
