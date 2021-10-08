@@ -59,6 +59,9 @@
 
 (function () {
     var ani_gr = document.querySelectorAll('.ani_gr');
+    var care_item = document.querySelector('.care_item');
+    var worker = document.querySelector('.worker img');
+    var message = document.querySelectorAll('.message span');
     gsap.fromTo(".slogan", {
         scrollTrigger: {
             trigger: ".slogan",
@@ -142,8 +145,17 @@
         duration: 5
     });
 
-
-
+    gsap.to(care_item, {
+        xPercent: -80,
+        ease: "none",
+        scrollTrigger: {
+            trigger: care_item,
+            scrub: 1,
+            snap: false,
+            start:"top",
+            end: () => "+=" + care_item.offsetWidth - 100
+        }
+    })
     //gsap.fromTo(".subtit", {
     //    scrollTrigger: {
     //        trigger: ".subtit",
@@ -176,17 +188,44 @@
     function changeNumber() {
 
         for (i = 0; i < ani_gr.length ; i++) {
-            console.log(i)
             if ((num.var).toFixed() >= 10 * (i - 1) && (num.var).toFixed() <= 10 * i) {
                 ani_gr[i].classList.remove("act");
+                message[0].classList.remove("act");
+                message[1].classList.remove("act");
+                message[2].classList.remove("act");
+                if (i < 6) {
+                    worker.src = "/img/worker0.png";
+                    message[0].classList.add("act");
+                }
+                if (i >= 6 && i<9) {
+                    worker.src = "/img/worker1.png"
+                    message[1].classList.add("act");
+                }
+                if(i >= 9) {
+                    worker.src = "/img/worker2.png"
+                    message[2].classList.add("act");
+                }
             }
-
+             (num.var).toFixed() <= 10 * (i + 1)
             if ((num.var).toFixed() >= 10 * i ) {
                 ani_gr[i].classList.add("act");
+                if ((num.var).toFixed() <= 10 * (i + 1)) {
+                    if (i < 6) {
+                        worker.src = "/img/worker0.png";
+                        message[0].classList.add("act");
+                    }
+                    if (i >= 6 && i < 9) {
+                        worker.src = "/img/worker1.png"
+                        message[1].classList.add("act");
+                    }
+                    if (i >= 9) {
+                        worker.src = "/img/worker2.png"
+                        message[2].classList.add("act");
+                    }
+                }
+             
             }
-            if ((num.var).toFixed() === 100) {
-                ani_gr[i].classList.add("act");
-            }
+            
         }
         //if ((num.var).toFixed() <= 10) {
         //    ani_gr[0].className += " act"
