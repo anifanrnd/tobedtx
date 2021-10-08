@@ -181,10 +181,12 @@
                 ani_gr[i].classList.remove("act");
             }
 
-            if ((num.var).toFixed() >= 10 * i && (num.var).toFixed() <= 10 * (i + 1)) {
+            if ((num.var).toFixed() >= 10 * i ) {
                 ani_gr[i].classList.add("act");
             }
-            
+            if ((num.var).toFixed() === 100) {
+                ani_gr[i].classList.add("act");
+            }
         }
         //if ((num.var).toFixed() <= 10) {
         //    ani_gr[0].className += " act"
