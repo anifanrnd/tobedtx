@@ -145,6 +145,15 @@ body, button, input, select, td, textarea, th {
     background: rgba(255, 255, 255, 0.1);
     /*border-bottom: 1px solid rgba(255,255,255,0.2);*/
 }
+    .header.black {
+        background: rgba(0, 0, 0, 0.8);
+    }
+        .header.black .nav a {
+            color:#fff;
+        }
+            .header.black .nav a:hover {
+                color: #FFB300;
+            }
 
 .header_div_wrapper {
     display: flex;
@@ -255,12 +264,12 @@ body, button, input, select, td, textarea, th {
     right: 0;
     text-align: center;
 }
-    .ani_gr{
-        border:2px solid #FFB300;
-        margin-left:10px;
-        padding:8px;
-        border-radius:5px;
-    }
+.ani_gr {
+    border: 2px solid #FFB300;
+    margin-left: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
         .ani_gr.act{
             background:#FFB300;
         }
@@ -839,6 +848,9 @@ footer {
         }
     .industry .button{
         margin:0 auto;
+    }
+    .ani_gr {
+        padding: 2px 6px;
     }
     /* partner */
     .partner .member_wrap {
