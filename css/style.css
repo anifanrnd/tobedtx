@@ -382,38 +382,61 @@ body, button, input, select, td, textarea, th {
 }
 
     .healthCare .layout {
-        overflow-x:scroll;
-        overflow:hidden;
+        position:relative;
+        height:350vh;
     }
-
-.care_item {
+.layout_care_inner{
+    position:sticky;
+    top:8%;
+}
+.care_item.bg {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 90vh;
 }
 .care_item .item {
     text-align: center;
     flex-shrink: 0;
-    padding: 0 60px;
-    font-size: 36px;
-    font-weight: bold;
-    color: #999;
+    padding: 0px ;
+    font-size: 70px;
+    font-weight:bold;
+    color: rgba(0,0,0,0.05);
 }
     .care_item img {
         max-width: 600px;
+        margin-bottom:24px;
+        transform:scale(2);
+        margin-top:500px;
     }
+.care_item.app .name {
+    font-weight:bold;
+    text-align:center;
+}
+.care_item.app {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    overflow:hidden;
+    position:absolute;
+    top:100px;
+    width:100%;
+    height:90vh;
+}
 
-    .care_item .button {
-        position: relative;
-        width:240px;
-        border: 2px solid #FFB300;
-        margin: 24px auto;
-        cursor: pointer;
-        transition: color 0.5s, transform 0.2s, background-color 0.2s;
-        outline: none;
-        color: #FFB300;
-        font-weight: 600;
-        font-size:16px;
-    }
+.care_item .button {
+    position: relative;
+    width: 240px;
+    border: 2px solid #FFB300;
+    margin: 24px auto;
+    cursor: pointer;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    outline: none;
+    color: #FFB300;
+    font-weight: 600;
+    font-size: 16px;
+    overflow:unset;
+}
 
         .care_item .button:hover {
             background: #FFB300;
@@ -471,13 +494,7 @@ body, button, input, select, td, textarea, th {
 .healthCare{
 /*r광현 추가*/
     position:relative; 
-    height:250vh;
     padding-bottom:80px;
-}
-.healthCare .layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
 }
 .care_item {
     -ms-overflow-style: none;
@@ -486,20 +503,6 @@ body, button, input, select, td, textarea, th {
     .care_item::-webkit-scrollbar {
         display: none;
     }
-
-.care_item img {
-    max-width: 414px;
-}
-.care_item .button {
-    position: relative;
-    border: 2px solid #FFB300;
-    margin: 24px auto;
-    cursor: pointer;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
-    outline: none;
-    color: #FFB300;
-    font-weight: 600;
-}
 
     .industry .button:hover {
         background: #FFB300;
@@ -581,14 +584,12 @@ body, button, input, select, td, textarea, th {
 .partner .layout{
     display:flex;
     flex-wrap:wrap;
-    margin-top:50px;
 }
 .partner .member_wrap {
     width: 49%;
     display: flex;
     justify-content: space-around;
     padding :18px 0;
-    opacity:0;
 }
 .partner .member_wrap:nth-child(2n+1) {
     padding-right:1%;
@@ -829,11 +830,12 @@ footer {
     }
     /* healthCare */
     .care_item .item {
-        font-size: 30px;
+        font-size: 48px;
     }
     .care_item img{
         max-width:360px;
     }
+  
     /* industry */
     .industry .layout{
         flex-direction:column;

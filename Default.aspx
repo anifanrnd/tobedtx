@@ -23,7 +23,8 @@
                             <div class="subtit">Mission</div>
                             <div class="content">
                                 <img src="/img/mission.png" alt="tobeDtx mission" />
-                                <p>의료 IT 기술로<br />우리의 삶을 건강하고 풍요롭게 한다.</p>
+                                <p>의료 IT 기술로<br />
+                                    우리의 삶을 건강하고 풍요롭게 한다.</p>
                             </div>
                         </div>
                         <div class="box value">
@@ -31,15 +32,19 @@
                             <div class="column">
                                 <div class="group group_ani group_ani1">
                                     <img src="/img/value0.png" alt="value1" />
-                                    <p>전문의료기관의<br />검증된 의료 기술</p>
+                                    <p>전문의료기관의<br />
+                                        검증된 의료 기술</p>
                                 </div>
                                 <div class="group group_ani group_ani2">
                                     <img src="/img/value1.png" alt="value2" />
-                                    <p>국내 1위<br />UX/UX 기술</p>
+                                    <p>국내 1위<br />
+                                        UX/UX 기술</p>
                                 </div>
                                 <div class="group group_ani group_ani3">
                                     <img src="/img/value2.png" alt="value3" />
-                                    <p>혁신적인 <br />AI 데이터 기술</p>
+                                    <p>혁신적인
+                                        <br />
+                                        AI 데이터 기술</p>
                                 </div>
                             </div>
                         </div>
@@ -48,35 +53,37 @@
             </div>
         </section>
         <section id="healthCare" class="healthCare">
-            <div class="scroll_box2">
-            <div class="section_inner">
-                <h2 class="section_title">당신에게 꼭 필요한 헬스케어만,</h2>
-                <div class="section_subtit">생체 신호 모니터링, 피드백과 치료가 가능한 기기, 질환별 임상학적 근거기반 AI를 통해<br />능동적인 건강 관리와 다양한 디지털 치료를 경험해보세요. </div>
-                <div class="layout">
-                    <div class="care_item side">
-                        <div class="item item0">스트레스 완화</div>
-                        <div class="item item1">혈관성 치매</div>
-                        <div class="item item2">ADHD</div>
-                        <div class="item item3">안과 검사</div>
-                        <div class="item item4">난독증</div>
-                        <div class="item item5">우울증</div>
-                        <div class="item item6">뇌질환</div>
-                        <div class="item item7">
-                            <span>기립성저혈압</span>
-                            <div class="button material-bubble"><span>더 알아보기</span></div>
-                        </div>
-                        <div class="item item8">
-                            <img src="img/app0.png" alt="기립성저혈압 진단앱" />
+                <div class="section_inner">
+                    <h2 class="section_title">당신에게 꼭 필요한 헬스케어만,</h2>
+                    <div class="section_subtit">생체 신호 모니터링, 피드백과 치료가 가능한 기기, 질환별 임상학적 근거기반 AI를 통해<br />
+                        능동적인 건강 관리와 다양한 디지털 치료를 경험해보세요. </div>
+                    <div class="layout">
+                        <div class="layout_care_inner">
+                            <div class="care_item bg">
+                                <div class="item item0">스트레스 완화</div>
+                                <div class="item item1">혈관성 치매</div>
+                                <div class="item item2">ADHD</div>
+                                <div class="item item4">난독증</div>
+                                <div class="item item5">우울증</div>
+                                <div class="item item6">뇌질환</div>
+                            </div>
+                            <div class="care_item app">
+                                <img src="img/app0.png" alt="기립성저혈압 진단앱" />
+                                <span class="name">기립성저혈압</span>
+                                <div class="button material-bubble"><span>더 알아보기</span></div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         <section id="industry" class="industry">
             <div class="section_inner">
-                <h2 class="section_title">근로자 안전사고 예방도<br />스마트하게</h2>
-                <div class="section_subtit">작업자의 낙상위험, 열 스트레스, 신체부하 경보를 일괄적으로 관리하고<br />
-휴식 지시, 사고 발생 시의 신속한 대응으로 안전관리의 새로운 기준을 제공합니다.</div>
+                <h2 class="section_title">근로자 안전사고 예방도<br />
+                    스마트하게</h2>
+                <div class="section_subtit">
+                    작업자의 낙상위험, 열 스트레스, 신체부하 경보를 일괄적으로 관리하고<br />
+                    휴식 지시, 사고 발생 시의 신속한 대응으로 안전관리의 새로운 기준을 제공합니다.
+                </div>
                 <div class="layout">
                     <div class="worker">
                         <div class="ani_gr_w">
@@ -102,9 +109,12 @@
                                 </dd>
                             </dl>
                             <p class="message">
-                                <span>지금은 바로<br />작업하셔도 됩니다.</span>
-                                <span>무리하게<br />일어나시면 안돼요!</span>
-                                <span>조금 쉬었다<br />하는 게 어떨까요?</span>
+                                <span>지금은 바로<br />
+                                    작업하셔도 됩니다.</span>
+                                <span>무리하게<br />
+                                    일어나시면 안돼요!</span>
+                                <span>조금 쉬었다<br />
+                                    하는 게 어떨까요?</span>
                             </p>
                         </div>
                         <div class="button material-bubble"><span>왜 필요한가요?</span></div>
@@ -225,11 +235,11 @@
                 <div class="container">
                     <div class="group">
                         <label for="userMail">메일주소</label>
-                        <input id="userMail" type="text" value="" placeholder="email@email.com"/>
+                        <input id="userMail" type="text" value="" placeholder="email@email.com" />
                     </div>
                     <div class="group">
                         <label for="contactTit">제목</label>
-                        <input id="contactTit" type="text" value="" placeholder="제목을 입력해주세요"/>
+                        <input id="contactTit" type="text" value="" placeholder="제목을 입력해주세요" />
                     </div>
                     <div class="group">
                         <label for="contactTxt">메일주소</label>
