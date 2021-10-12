@@ -581,12 +581,14 @@ body, button, input, select, td, textarea, th {
 .partner .layout{
     display:flex;
     flex-wrap:wrap;
+    margin-top:50px;
 }
 .partner .member_wrap {
     width: 49%;
     display: flex;
     justify-content: space-around;
     padding :18px 0;
+    opacity:0;
 }
 .partner .member_wrap:nth-child(2n+1) {
     padding-right:1%;
