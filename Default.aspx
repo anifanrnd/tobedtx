@@ -53,27 +53,27 @@
             </div>
         </section>
         <section id="healthCare" class="healthCare">
-            <div class="scroll_box2">
                 <div class="section_inner">
                     <h2 class="section_title">당신에게 꼭 필요한 헬스케어만,</h2>
                     <div class="section_subtit">생체 신호 모니터링, 피드백과 치료가 가능한 기기, 질환별 임상학적 근거기반 AI를 통해<br />
                         능동적인 건강 관리와 다양한 디지털 치료를 경험해보세요. </div>
                     <div class="layout">
-                        <div class="care_item bg">
-                            <div class="item item0">스트레스 완화</div>
-                            <div class="item item1">혈관성 치매</div>
-                            <div class="item item2">ADHD</div>
-                            <div class="item item4">난독증</div>
-                            <div class="item item5">우울증</div>
-                            <div class="item item6">뇌질환</div>
-                        </div>
-                        <div class="care_item app">
-                            <img src="img/app0.png" alt="기립성저혈압 진단앱" />
-                            <span class="name">기립성저혈압</span>
-                            <div class="button material-bubble"><span>더 알아보기</span></div>
+                        <div class="layout_care_inner">
+                            <div class="care_item bg">
+                                <div class="item item0">스트레스 완화</div>
+                                <div class="item item1">혈관성 치매</div>
+                                <div class="item item2">ADHD</div>
+                                <div class="item item4">난독증</div>
+                                <div class="item item5">우울증</div>
+                                <div class="item item6">뇌질환</div>
+                            </div>
+                            <div class="care_item app">
+                                <img src="img/app0.png" alt="기립성저혈압 진단앱" />
+                                <span class="name">기립성저혈압</span>
+                                <div class="button material-bubble"><span>더 알아보기</span></div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         <section id="industry" class="industry">

@@ -62,6 +62,9 @@
     var care_item = document.querySelector('.care_item');
     var worker = document.querySelector('.worker img');
     var message = document.querySelectorAll('.message span');
+    var member_wrap = document.querySelectorAll('.member_wrap');
+    var percent = document.querySelector('.percent');
+
     gsap.fromTo(".slogan", {
         scrollTrigger: {
             trigger: ".slogan",
@@ -145,17 +148,49 @@
         duration: 5
     });
 
-    gsap.to(care_item, {
-        xPercent: -80,
-        ease: "none",
+    gsap.to(".care_item > img", {
         scrollTrigger: {
-            trigger: care_item,
-            scrub: 1,
-            snap: false,
-            start:"top",
-            end: () => "+=" + care_item.offsetWidth - 100
-        }
+            trigger: ".care_item > img",
+            start: "top 200px",
+            end: "top -100%",
+            scrub: true,
+        },
+        scale: 1,
+        y: -500,
+        duration: 5
     })
+    gsap.to(".care_item.app > span", {
+        scrollTrigger: {
+            trigger: ".care_item > span",
+            start: "top 150%",
+            end: "top -100%",
+            scrub: true,
+        },
+        y: -500,
+        duration: 1
+    })
+    gsap.to(".care_item.app > div", {
+        scrollTrigger: {
+            trigger: ".care_item > div",
+            start: "top -180%",
+            end: "top -100%",
+            scrub: true,
+        },
+        y: -500,
+        duration: 3
+    })
+    //gsap.to(care_item, {
+    //    xPercent: -80,
+    //    ease: "none",
+    //    scrollTrigger: {
+    //        trigger: care_item,
+    //        scrub: 1,
+    //        snap: false,
+    //        start: "top",
+    //        end: () => "+=" + care_item.offsetWidth - 100
+    //    }
+    //});
+
     //gsap.fromTo(".subtit", {
     //    scrollTrigger: {
     //        trigger: ".subtit",
@@ -174,7 +209,6 @@
 
     var startCount = 0,
         num = { var: startCount };
-    var percent = document.querySelector('.percent');
     gsap.timeline({
         scrollTrigger: {
             trigger: ".industry",
@@ -187,7 +221,7 @@
 
     function changeNumber() {
 
-        for (i = 0; i < ani_gr.length ; i++) {
+        for (i = 0; i < ani_gr.length; i++) {
             if ((num.var).toFixed() >= 10 * (i - 1) && (num.var).toFixed() <= 10 * i) {
                 ani_gr[i].classList.remove("act");
                 message[0].classList.remove("act");
@@ -197,17 +231,17 @@
                     worker.src = "/img/worker0.png";
                     message[0].classList.add("act");
                 }
-                if (i >= 6 && i<9) {
+                if (i >= 6 && i < 9) {
                     worker.src = "/img/worker1.png"
                     message[1].classList.add("act");
                 }
-                if(i >= 9) {
+                if (i >= 9) {
                     worker.src = "/img/worker2.png"
                     message[2].classList.add("act");
                 }
             }
-             (num.var).toFixed() <= 10 * (i + 1)
-            if ((num.var).toFixed() >= 10 * i ) {
+            (num.var).toFixed() <= 10 * (i + 1)
+            if ((num.var).toFixed() >= 10 * i) {
                 ani_gr[i].classList.add("act");
                 if ((num.var).toFixed() <= 10 * (i + 1)) {
                     if (i < 6) {
@@ -223,41 +257,24 @@
                         message[2].classList.add("act");
                     }
                 }
-             
-            }
-            
-        }
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[0].className += " act"
-        //}
-        //if ((num.var).toFixed() <= 10) {
-        //    ani_gr[9].className += " act"
-        //}
 
+            }
+
+        }
+      
+        
         percent.innerHTML = (num.var).toFixed();        
     }
+    for (i = 0; i < member_wrap.length; i++) {
+        gsap.to(member_wrap[i], {
+            scrollTrigger: {
+                trigger: member_wrap[i],
+                start: `top ${500 + (member_wrap.length - i)*70}px`
+            },
+            y: -40,
+            opacity: 1,
+            duration: 1,
+        })
+    }
+   
 })();
