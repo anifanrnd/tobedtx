@@ -58,6 +58,21 @@
 //})();
 
 (function () {
+    var header = document.querySelector('.header');
+    var btn_mob_menu = document.querySelector('.btn_mob_menu');
+    var nav_wrapper = document.querySelector('.nav_wrapper');
+    btn_mob_menu.addEventListener('click', function () {
+        btn_mob_menu.classList.toggle('menu_close')
+        nav_wrapper.classList.toggle('on');
+    })
+    window.addEventListener('scroll', function () {
+        if (this.scrollY > header.offsetTop + header.offsetHeight) {
+            header.classList.add('black');
+        } else {
+            header.classList.remove('black');
+        }
+
+    });
     var ani_gr = document.querySelectorAll('.ani_gr');
     var care_item = document.querySelector('.care_item');
     var worker = document.querySelector('.worker img');
