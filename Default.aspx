@@ -22,7 +22,7 @@
                         <div class="box box_ani">
                             <div class="subtit">Mission</div>
                             <div class="content">
-                                <img src="/img/mission.png" alt="tobeDtx mission" />
+                                <img src="img/mission.png" alt="tobeDtx mission" />
                                 <p>의료 IT 기술로<br />
                                     우리의 삶을 건강하고 풍요롭게 한다.</p>
                             </div>
@@ -31,17 +31,17 @@
                             <div class="subtit subtit_ani">Value</div>
                             <div class="column">
                                 <div class="group group_ani group_ani1">
-                                    <img src="/img/value0.png" alt="value1" />
+                                    <img src="img/value0.png" alt="value1" />
                                     <p>전문의료기관의<br />
                                         검증된 의료 기술</p>
                                 </div>
                                 <div class="group group_ani group_ani2">
-                                    <img src="/img/value1.png" alt="value2" />
+                                    <img src="img/value1.png" alt="value2" />
                                     <p>국내 1위<br />
                                         UX/UX 기술</p>
                                 </div>
                                 <div class="group group_ani group_ani3">
-                                    <img src="/img/value2.png" alt="value3" />
+                                    <img src="img/value2.png" alt="value3" />
                                     <p>혁신적인
                                         <br />
                                         AI 데이터 기술</p>
@@ -99,7 +99,7 @@
                             <span class="ani_gr"></span>
                             <span class="ani_gr"></span>
                         </div>
-                        <img src="/img/worker0.png" alt="작업자상태:휴식" />
+                        <img src="img/worker0.png" alt="작업자상태:휴식" />
                     </div>
                     <div class="state">
                         <div>
@@ -129,7 +129,7 @@
                 <div class="layout">
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="/img/man0.jpg" alt="김병조" />
+                            <img src="img/man0.jpg" alt="김병조" />
                         </div>
                         <div class="member_info">
                             <div class="name">
@@ -146,7 +146,7 @@
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="/img/man0.jpg" alt="김병조" />
+                            <img src="img/man0.jpg" alt="김병조" />
                         </div>
                         <div class="member_info">
                             <div class="name">
@@ -163,7 +163,7 @@
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="/img/man0.jpg" alt="김병조" />
+                            <img src="img/man0.jpg" alt="김병조" />
                         </div>
                         <div class="member_info">
                             <div class="name">
@@ -180,7 +180,7 @@
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="/img/man0.jpg" alt="김병조" />
+                            <img src="img/man0.jpg" alt="김병조" />
                         </div>
                         <div class="member_info">
                             <div class="name">
@@ -197,7 +197,7 @@
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="/img/man0.jpg" alt="김병조" />
+                            <img src="img/man0.jpg" alt="김병조" />
                         </div>
                         <div class="member_info">
                             <div class="name">

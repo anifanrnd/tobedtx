@@ -243,15 +243,15 @@
                 message[1].classList.remove("act");
                 message[2].classList.remove("act");
                 if (i < 6) {
-                    worker.src = "/img/worker0.png";
+                    worker.src = "img/worker0.png";
                     message[0].classList.add("act");
                 }
                 if (i >= 6 && i < 9) {
-                    worker.src = "/img/worker1.png"
+                    worker.src = "img/worker1.png"
                     message[1].classList.add("act");
                 }
                 if (i >= 9) {
-                    worker.src = "/img/worker2.png"
+                    worker.src = "img/worker2.png"
                     message[2].classList.add("act");
                 }
             }
@@ -260,15 +260,15 @@
                 ani_gr[i].classList.add("act");
                 if ((num.var).toFixed() <= 10 * (i + 1)) {
                     if (i < 6) {
-                        worker.src = "/img/worker0.png";
+                        worker.src = "img/worker0.png";
                         message[0].classList.add("act");
                     }
                     if (i >= 6 && i < 9) {
-                        worker.src = "/img/worker1.png"
+                        worker.src = "img/worker1.png"
                         message[1].classList.add("act");
                     }
                     if (i >= 9) {
-                        worker.src = "/img/worker2.png"
+                        worker.src = "img/worker2.png"
                         message[2].classList.add("act");
                     }
                 }
