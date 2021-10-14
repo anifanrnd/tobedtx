@@ -70,8 +70,10 @@
                             </div>
                             <div class="care_item app">
                                 <img src="img/app0.png" alt="기립성저혈압 진단앱" />
-                                <span class="name">기립성저혈압</span>
-                                <div class="button" onclick="location.href='/sub0.aspx'"><span>더 알아보기</span></div>
+                                <div>
+                                    <span class="name">기립성저혈압</span>
+                                    <div class="button" onclick="location.href='/sub0.aspx'"><span>더 알아보기</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>

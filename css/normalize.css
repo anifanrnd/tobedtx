@@ -13,9 +13,7 @@ html {
 body {
     margin: 0;
 }
-* {
-    box-sizing: border-box;
-}
+
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img, ul, p, dl, ol, dd, dt {
     margin: 0;
     padding: 0;

@@ -857,7 +857,7 @@ footer {
         background-size: 24px;
     }
         .message span {
-            display: block;
+            display: none;
             font-size: 28px;
             background-size: 24px;
             padding: 30px;
@@ -873,6 +873,7 @@ footer {
     .partner .member_wrap {
         width: 100%;
         padding-right: 0;
+        opacity:0;
     }
     .partner .img_wrap {
         width: 100%;
@@ -883,4 +884,7 @@ footer {
         .partner_logo:nth-child(2n) {
             margin-right: 0;
         }
+    .care_item.bg{
+        padding-bottom:30vh;
+    }
 }
