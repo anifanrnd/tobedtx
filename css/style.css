@@ -587,9 +587,10 @@ body, button, input, select, td, textarea, th {
     }
 
 /* partner */
-.partner .layout{
-    display:flex;
-    flex-wrap:wrap;
+.partner .layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
 }
 .partner .member_wrap {
     width: 49%;
@@ -761,7 +762,6 @@ footer {
 
     .btn_mob_menu {
         position: relative;
-        display:block;
         width: 44px;
         height: 44px;
         padding: 10px;
