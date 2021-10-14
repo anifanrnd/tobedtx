@@ -127,7 +127,7 @@
     gsap.to(".group_ani1", {
         scrollTrigger: {
             trigger: ".group_ani1",
-            start: "top -50%",
+            start: screenInner > 767 ? "top -50%" : "top 100%",
         },
         x: -40,
         opacity: 1,
@@ -137,7 +137,7 @@
     gsap.to(".group_ani2", {
         scrollTrigger: {
             trigger: ".group_ani2",
-            start: "top -75%",
+            start: screenInner > 767 ? "top -75%" : "top 80%",
         },
         x: -40,
         opacity: 1,
@@ -146,7 +146,7 @@
     gsap.to(".group_ani3", {
         scrollTrigger: {
             trigger: ".group_ani3",
-            start: "top -100%",
+            start: screenInner > 767 ? "top -100%" : "top 60%",
         },
         x: -40,
         opacity: 1,
@@ -237,10 +237,10 @@
 
     function changeNumber() {
         for (i = 0; i < ani_gr.length; i++) {
-            ani_gr[i].classList.remove("act");
-            message[0].classList.remove("act");
-            message[1].classList.remove("act");
-            message[2].classList.remove("act");
+             ani_gr[i].classList.remove("act");
+                message[0].classList.remove("act");
+                message[1].classList.remove("act");
+                message[2].classList.remove("act");
             if ((num.var).toFixed() * 2 >= 10 * (i - 1) && (num.var).toFixed() * 2 <= 10 * i) {
                
                 if (i < 6) {
@@ -277,9 +277,11 @@
 
         }
       
-        
-        percent.innerHTML = (num.var).toFixed() * 2;        
+
+        if (percent) percent.innerHTML = (num.var).toFixed() * 2;        
     }
+
+  
     for (i = 0; i < member_wrap.length; i++) {
         gsap.to(member_wrap[i], {
             scrollTrigger: {
@@ -291,5 +293,39 @@
             duration: 1,
         })
     }
-   
+    var path = document.querySelectorAll('.desc path');
+    var polyline = document.querySelectorAll('.desc polyline');
+    var line = document.querySelectorAll('.desc line');
+    var circle = document.querySelectorAll('.desc circle');
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".content1>.desc",
+            start: "top 50%",
+        }
+    }).to("a",{ onUpdate: changeNumber2 })
+    function changeNumber2() {
+        for (i = 0; i < path.length; i++) {
+            path[i].classList.add('ani');
+        }
+        for (i = 0; i < polyline.length; i++) {
+            polyline[i].classList.add('ani');
+        }
+        for (i = 0; i < line.length; i++) {
+            line[i].classList.add('ani');
+        }
+        for (i = 0; i < circle.length; i++) {
+            circle[i].classList.add('ani');
+        }
+    }
+    var desc = document.querySelector('.content2>.desc');
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".content2>.desc",
+            start: "top 50%",
+        }
+    }).to("a", { onUpdate: changeNumber3 })
+    function changeNumber3() {
+        desc.classList.add('ani');
+    }
 })();

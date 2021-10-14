@@ -887,4 +887,10 @@ footer {
     .care_item.bg{
         padding-bottom:30vh;
     }
+    .scroll_box{
+        position:unset;
+    }
+    .mission .section_inner.layout_box{
+        height:unset;
+    }
 }

@@ -55,7 +55,7 @@
     max-width: 130px;
 }
 
-#ico0_2 {
+#ico0_2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s;
@@ -63,7 +63,7 @@
     opacity: 0
 }
 
-#ico0_1 {
+#ico0_1.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .3s;
@@ -71,7 +71,7 @@
     opacity: 0
 }
 
-#ico0_0 {
+#ico0_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .4s;
@@ -79,7 +79,7 @@
     opacity: 0
 }
 
-#ico0_3 {
+#ico0_3.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .5s;
@@ -87,7 +87,7 @@
     opacity: 0
 }
 
-#ico0_4 {
+#ico0_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .5s;
@@ -95,7 +95,7 @@
     opacity: 0
 }
 
-#ico0_5 {
+#ico0_5.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .8s;
@@ -107,7 +107,7 @@
     max-width: 118px;
 }
 
-#ico1_0 {
+#ico1_0.ani {
     stroke-dasharray: 164%;
     stroke-dashoffset: 100%;
     animation: dash 1s;
@@ -115,14 +115,14 @@
     opacity: 0
 }
 
-#ico1_2 {
+#ico1_2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .3s;
     animation-fill-mode: forwards;
 }
 
-#ico1_1 {
+#ico1_1.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .4s;
@@ -130,7 +130,7 @@
     opacity: 0
 }
 
-#ico1_3 {
+#ico1_3.ani {
     stroke-dasharray: 112%;
     stroke-dashoffset: 112%;
     animation: dash 0.5s .5s;
@@ -138,7 +138,7 @@
     opacity: 0
 }
 
-#ico1_4 {
+#ico1_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .8s;
@@ -150,14 +150,14 @@
     max-width: 78px;
 }
 
-#ico2_0 {
+#ico2_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.8s;
     animation-fill-mode: forwards;
 }
 
-#ico2_1 {
+#ico2_1.ani {
     stroke-dasharray: 256%;
     stroke-dashoffset: 256%;
     animation: dash .8s .3s;
@@ -165,7 +165,7 @@
     opacity: 0
 }
 
-#ico2_1-2 {
+#ico2_1-2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .8s;
@@ -173,7 +173,7 @@
     opacity: 0
 }
 
-#ico1_3 {
+#ico1_3.ani {
     stroke-dasharray: 112%;
     stroke-dashoffset: 112%;
     animation: dash 0.5s .5s;
@@ -181,7 +181,7 @@
     opacity: 0
 }
 
-#ico1_4 {
+#ico1_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.5s .8s;
@@ -193,14 +193,14 @@
     max-width: 110px;
 }
 
-#ico3_0 {
+#ico3_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
     animation: dash 0.8s;
     animation-fill-mode: forwards;
 }
 
-#ico3_1 {
+#ico3_1.ani {
     stroke-dasharray: 400%;
     stroke-dashoffset: 400%;
     animation: dash 1s .5s;
@@ -391,7 +391,7 @@
         align-items:center;
         justify-content:space-around;
     }
-        .sub1 .content2 .desc:after {
+        .sub1 .content2 .desc.ani:after {
             position: absolute;
             width: 100%;
             height: 100%;
