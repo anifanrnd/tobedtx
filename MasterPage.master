@@ -108,10 +108,13 @@
                                 <h3><a href="/default.aspx">회사소개<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
-                                <h3><a href="/tech.aspx">핵심기술<span class="bar"></span></a></h3>
+                                <h3><a href="/sub0.aspx">핵심기술<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
-                                <h3><a href="/contact.aspx">제휴문의<span class="bar"></span></a></h3>
+                                <h3><a href="#contact">제휴문의<span class="bar"></span></a></h3>
+                            </div>
+                            <div class="nav_menu">
+                                <h3><a href="/notice.aspx">소식<span class="bar"></span></a></h3>
                             </div>
                         </div>
                     </div>
