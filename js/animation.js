@@ -57,7 +57,8 @@
 //    })
 //})();
 
-(function () {
+(function() {
+    var screenInner = this.innerWidth;
     var header = document.querySelector('.header');
     var btn_mob_menu = document.querySelector('.btn_mob_menu');
     var nav_wrapper = document.querySelector('.nav_wrapper');
@@ -165,9 +166,9 @@
 
     gsap.to(".care_item > img", {
         scrollTrigger: {
-            trigger: ".care_item > img",
-            start: "top 200px",
-            end: "top -100%",
+            trigger: ".care_item.app",
+            start: screenInner > 767 ? "top 200px" : "top 100px",
+            end: screenInner > 767 ? "top -100%" : "top -200%",
             scrub: true,
         },
         scale: 1,
@@ -176,9 +177,9 @@
     })
     gsap.to(".care_item.app > span", {
         scrollTrigger: {
-            trigger: ".care_item > span",
-            start: "top 150%",
-            end: "top -100%",
+            trigger: ".care_item.app",
+            start: screenInner > 767 ? "top 150%" : "top 300px",
+            end: screenInner > 767 ? "top -100%" : "top -250%",
             scrub: true,
         },
         y: -500,
@@ -186,9 +187,9 @@
     })
     gsap.to(".care_item.app > div", {
         scrollTrigger: {
-            trigger: ".care_item > div",
-            start: "top -180%",
-            end: "top -100%",
+            trigger: ".care_item.app",
+            start: screenInner > 767 ? "top -180%" : "top 300px",
+            end: screenInner > 767 ? "top -100%" : "top -250%",
             scrub: true,
         },
         y: -500,
@@ -228,16 +229,15 @@
         scrollTrigger: {
             trigger: ".industry",
             start: "top 0",
-            end:"top -200%",
+            end: screenInner > 767 ? "top -200%" : "top -130%",
             scrub: true,
         }
     }).to(num, { var: 50, duration: 1, ease: "none", onUpdate: changeNumber })
 
 
     function changeNumber() {
-
         for (i = 0; i < ani_gr.length; i++) {
-            if ((num.var).toFixed()*2 >= 10 * (i - 1) && (num.var).toFixed()*2 <= 10 * i) {
+            if ((num.var).toFixed() * 2 >= 10 * (i - 1) && (num.var).toFixed() * 2 <= 10 * i) {
                 ani_gr[i].classList.remove("act");
                 message[0].classList.remove("act");
                 message[1].classList.remove("act");
@@ -255,10 +255,9 @@
                     message[2].classList.add("act");
                 }
             }
-            (num.var).toFixed() <= 10 * (i + 1)
-            if ((num.var).toFixed()*2 >= 10 * i) {
+            if ((num.var).toFixed() * 2 >= 10 * i) {
                 ani_gr[i].classList.add("act");
-                if ((num.var).toFixed()*2 <= 10 * (i + 1)) {
+                if ((num.var).toFixed() * 2 <= 10 * (i + 1)) {
                     if (i < 6) {
                         worker.src = "/img/worker0.png";
                         message[0].classList.add("act");
@@ -278,7 +277,7 @@
         }
       
         
-        percent.innerHTML = (num.var).toFixed()*2;        
+        percent.innerHTML = (num.var).toFixed() * 2;        
     }
     for (i = 0; i < member_wrap.length; i++) {
         gsap.to(member_wrap[i], {

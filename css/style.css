@@ -173,6 +173,7 @@ body, button, input, select, td, textarea, th {
         line-height: 80px;
         font-size: 16px;
         font-weight: 600;
+        color:#fff;
     }
 
 .bar {
@@ -394,8 +395,10 @@ body, button, input, select, td, textarea, th {
     justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 90vh;
+    padding-top:10%;
 }
 .care_item .item {
+    min-width:30%;
     text-align: center;
     flex-shrink: 0;
     padding: 0px ;
@@ -410,8 +413,9 @@ body, button, input, select, td, textarea, th {
         margin-top:500px;
     }
 .care_item.app .name {
-    font-weight:bold;
-    text-align:center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
 }
 .care_item.app {
     display: flex;
@@ -440,6 +444,7 @@ body, button, input, select, td, textarea, th {
 
         .care_item .button:hover {
             background: #FFB300;
+            color: #303030;
         }
 
 .material-bubble {
@@ -852,7 +857,7 @@ footer {
         background-size: 24px;
     }
         .message span {
-            display: block;
+            display: none;
             font-size: 28px;
             background-size: 24px;
             padding: 30px;
@@ -868,6 +873,7 @@ footer {
     .partner .member_wrap {
         width: 100%;
         padding-right: 0;
+        opacity:0;
     }
     .partner .img_wrap {
         width: 100%;
@@ -878,4 +884,7 @@ footer {
         .partner_logo:nth-child(2n) {
             margin-right: 0;
         }
+    .care_item.bg{
+        padding-bottom:30vh;
+    }
 }
