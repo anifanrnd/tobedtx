@@ -237,17 +237,21 @@
 
     function changeNumber() {
         for (i = 0; i < ani_gr.length; i++) {
-             ani_gr[i].classList.remove("act");
+                ani_gr[i].classList.remove("act");
+
+            if ((num.var).toFixed() * 2 >= 10 * (i - 1) && (num.var).toFixed() * 2 <= 10 * i) {
                 message[0].classList.remove("act");
                 message[1].classList.remove("act");
                 message[2].classList.remove("act");
-            if ((num.var).toFixed() * 2 >= 10 * (i - 1) && (num.var).toFixed() * 2 <= 10 * i) {
-               
                 if (i < 6) {
                     worker.src = "img/worker0.png";
                     message[0].classList.add("act");
                 }
+                if (i === 6) {
+                    worker.style.opacity = "0";
+                }
                 if (i >= 6 && i < 9) {
+                    worker.style.opacity = "1";
                     worker.src = "img/worker1.png"
                     message[1].classList.add("act");
                 }
@@ -326,6 +330,6 @@
         }
     }).to("a", { onUpdate: changeNumber3 })
     function changeNumber3() {
-        desc.classList.add('ani');
+        if (desc) desc.classList.add('ani');
     }
 })();
