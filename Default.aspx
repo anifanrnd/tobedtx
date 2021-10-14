@@ -60,6 +60,7 @@
                     <div class="layout">
                         <div class="layout_care_inner">
                             <div class="care_item bg">
+                                <div class="item">기립성저혈압</div>
                                 <div class="item item0">스트레스 완화</div>
                                 <div class="item item1">혈관성 치매</div>
                                 <div class="item item2">ADHD</div>
@@ -69,8 +70,10 @@
                             </div>
                             <div class="care_item app">
                                 <img src="img/app0.png" alt="기립성저혈압 진단앱" />
-                                <span class="name">기립성저혈압</span>
-                                <div class="button material-bubble"><span>더 알아보기</span></div>
+                                <div>
+                                    <span class="name">기립성저혈압</span>
+                                    <div class="button" onclick="location.href='/sub0.aspx'"><span>더 알아보기</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,7 +120,7 @@
                                     하는 게 어떨까요?</span>
                             </p>
                         </div>
-                        <div class="button material-bubble"><span>왜 필요한가요?</span></div>
+                        <div class="button material-bubble" onclick="location.href='/sub1.aspx'"><span>왜 필요한가요?</span></div>
                     </div>
                 </div>
             </div>

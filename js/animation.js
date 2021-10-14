@@ -178,8 +178,8 @@
     gsap.to(".care_item.app > span", {
         scrollTrigger: {
             trigger: ".care_item.app",
-            start: screenInner > 767 ? "top 150%" : "top 300px",
-            end: screenInner > 767 ? "top -100%" : "top -250%",
+            start: screenInner > 767 ? "top 500px" : "top 300px",
+            end: screenInner > 767 ? "top -150%" : "top -250%",
             scrub: true,
         },
         y: -500,
@@ -188,8 +188,8 @@
     gsap.to(".care_item.app > div", {
         scrollTrigger: {
             trigger: ".care_item.app",
-            start: screenInner > 767 ? "top -180%" : "top 300px",
-            end: screenInner > 767 ? "top -100%" : "top -250%",
+            start: screenInner > 767 ? "top 500px" : "top 300px",
+            end: screenInner > 767 ? "top -150%" : "top -250%",
             scrub: true,
         },
         y: -500,
