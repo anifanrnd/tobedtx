@@ -231,13 +231,13 @@
             end:"top -200%",
             scrub: true,
         }
-    }).to(num, { var: 100, duration: 1, ease: "none", onUpdate: changeNumber })
+    }).to(num, { var: 50, duration: 1, ease: "none", onUpdate: changeNumber })
 
 
     function changeNumber() {
 
         for (i = 0; i < ani_gr.length; i++) {
-            if ((num.var).toFixed() >= 10 * (i - 1) && (num.var).toFixed() <= 10 * i) {
+            if ((num.var).toFixed()*2 >= 10 * (i - 1) && (num.var).toFixed()*2 <= 10 * i) {
                 ani_gr[i].classList.remove("act");
                 message[0].classList.remove("act");
                 message[1].classList.remove("act");
@@ -256,9 +256,9 @@
                 }
             }
             (num.var).toFixed() <= 10 * (i + 1)
-            if ((num.var).toFixed() >= 10 * i) {
+            if ((num.var).toFixed()*2 >= 10 * i) {
                 ani_gr[i].classList.add("act");
-                if ((num.var).toFixed() <= 10 * (i + 1)) {
+                if ((num.var).toFixed()*2 <= 10 * (i + 1)) {
                     if (i < 6) {
                         worker.src = "/img/worker0.png";
                         message[0].classList.add("act");
@@ -278,7 +278,7 @@
         }
       
         
-        percent.innerHTML = (num.var).toFixed();        
+        percent.innerHTML = (num.var).toFixed()*2;        
     }
     for (i = 0; i < member_wrap.length; i++) {
         gsap.to(member_wrap[i], {
