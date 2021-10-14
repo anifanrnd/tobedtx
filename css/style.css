@@ -30,6 +30,10 @@
     font-weight: 800;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%
 }
@@ -559,7 +563,7 @@ body, button, input, select, td, textarea, th {
         padding-right:12px;
     }
 .message {
-    background: url(../img/quote0.svg) no-repeat top left;
+    background: url(../img/quote0.svg) no-repeat 24px 0px;
 }
     .message span {
         display: inline-block;
@@ -569,7 +573,7 @@ body, button, input, select, td, textarea, th {
         display: none;
     }
         .message span.act{
-            display:inline;
+            display:inline-block;
         }
         .industry .button {
             position: relative;
@@ -856,6 +860,7 @@ footer {
     .message {
         margin-bottom: 24px;
         background-size: 24px;
+        text-align:center;
     }
         .message span {
             display: none;
