@@ -237,11 +237,12 @@
 
     function changeNumber() {
         for (i = 0; i < ani_gr.length; i++) {
+            ani_gr[i].classList.remove("act");
+            message[0].classList.remove("act");
+            message[1].classList.remove("act");
+            message[2].classList.remove("act");
             if ((num.var).toFixed() * 2 >= 10 * (i - 1) && (num.var).toFixed() * 2 <= 10 * i) {
-                ani_gr[i].classList.remove("act");
-                message[0].classList.remove("act");
-                message[1].classList.remove("act");
-                message[2].classList.remove("act");
+               
                 if (i < 6) {
                     worker.src = "img/worker0.png";
                     message[0].classList.add("act");
