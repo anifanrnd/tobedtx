@@ -72,7 +72,7 @@
                                 <img src="img/app0.png" alt="기립성저혈압 진단앱" />
                                 <div>
                                     <span class="name">기립성저혈압</span>
-                                    <div class="button" onclick="location.href='tobedtx/sub0.aspx'"><span>더 알아보기</span></div>
+                                    <div class="button" onclick="location.href='/tobedtx/sub0.aspx'"><span>더 알아보기</span></div>
                                 </div>
                             </div>
                         </div>
