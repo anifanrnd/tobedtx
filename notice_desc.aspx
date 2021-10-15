@@ -25,7 +25,7 @@
 감사합니다.<br />
                 </div>
             </section>
-            <div class="btn_back" onclick="location.href='./notice.aspx'">
+            <div class="btn_back" onclick="location.href='/tobedtx/notice.aspx'">
                 목록으로
             </div>
         </div>
