@@ -414,8 +414,12 @@ body, button, input, select, td, textarea, th {
         max-width: 600px;
         margin-bottom:24px;
         transform:scale(2);
-        margin-top:500px;
+        opacity:0;
     }
+.care_item.app > div{
+    opacity:0;
+    margin-top:200px;
+}
 .care_item.app .name {
     text-align: center;
     font-size: 32px;
