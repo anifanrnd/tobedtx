@@ -122,20 +122,30 @@
                     <section class="content2">
                         <div class="layout_l">
                             <div class="tit">기립성 저혈압 진단, 어떻게 가능한가요?</div>
+
+                        </div>
+                        <div class="layout_r">
                             <div class="desc">
                                 <p>
                                     최소한의 생체신호(심박수)만으로 기립성 저혈압을 진단하는 알고리즘<br />
                                     - 고려대학교의료원 신경과에서 663명의 환자 데이터를 기반으로 학습
                                 </p>
+                                <div class="layout">
+                                    <div class="img_certi">
+                                        <img src="img/certi.jpg" alt="특허증" />
+                                    </div>
+                                    <div class="img_ku">
+                                        <img src="img/logo_ku.png" alt="고려대학교의료원" />
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
-                        <div class="layout_r">
-                            <img src="img/logo_ku.png" alt="고려대학교의료원" />
+
                         </div>
                     </section>
                     <section class="content2_1">
                         <div class="layout_l">
-                            <img src="img/thesis0.jpg" alt="논문자료1"/>
+                            <img src="img/thesis0.jpg" alt="논문자료1" />
                         </div>
                         <div class="layout_r">
                             <img src="img/thesis1.jpg" alt="논문자료5" />

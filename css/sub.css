@@ -221,20 +221,27 @@
 }
 
     .sub0 .content2 .layout_l {
-        width: 67%;
-    }
-
-    .sub0 .content2 .layout_r {
         width: 33%;
-        vertical-align: middle;
-        text-align: right;
-        padding-top: 36px;
+        margin-right: 1px;
         background: #303030;
     }
-
-        .sub0 .content2 .layout_r img {
-            max-width: 160px;
-        }
+    .sub0 .content2 .layout_r {
+        width: 67%;
+        background: #303030;
+        padding: 36px 0 0 36px;
+    }
+    .sub0 .content2 .layout {
+        display: flex;
+        padding-top: 36px;
+    }
+    .sub0 .content2 .img_ku {
+        max-width: 160px;
+    }
+    .sub0 .content2 .img_certi{
+        width:60%;
+        max-width:440px;
+        margin-right:16px;
+    }
 
     .sub0 .content2 .tit {
         width: 100%;
@@ -247,11 +254,13 @@
         padding-left: 0;
     }
 
-.sub0 .content2_1 {
-    display: flex;
-    background: #303030;
-    padding-bottom: 48px;
-}
+
+    .sub0 .content2_1 {
+        display: flex;
+        background: #303030;
+        padding-bottom: 48px;
+        padding-top: 24px;
+    }
 
     .sub0 .content2_1 .layout_l {
         width: 62%;
@@ -293,13 +302,15 @@
 
         .sub0 .content2 .layout_r {
             padding-top: 0;
+            padding-left:0;
+
         }
 
         .sub0 .content2 .desc {
             padding-bottom: 24px;
         }
 
-        .sub0 .content2 .layout_r img {
+        .sub0 .content2 .layout_r .img_ku {
             max-width: 120px;
         }
 
