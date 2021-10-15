@@ -120,7 +120,7 @@
                                     하는 게 어떨까요?</span>
                             </p>
                         </div>
-                        <div class="button material-bubble" onclick="location.href='/sub1.aspx'"><span>왜 필요한가요?</span></div>
+                        <div class="button material-bubble" onclick="location.href='/tobedtx/sub1.aspx'"><span>왜 필요한가요?</span></div>
                     </div>
                 </div>
             </div>

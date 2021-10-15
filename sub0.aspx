@@ -122,7 +122,6 @@
                     <section class="content2">
                         <div class="layout_l">
                             <div class="tit">기립성 저혈압 진단, 어떻게 가능한가요?</div>
-
                         </div>
                         <div class="layout_r">
                             <div class="desc">
