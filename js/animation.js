@@ -60,8 +60,12 @@
 (function() {
     var screenInner = this.innerWidth;
     var header = document.querySelector('.header');
+    var nav_menu = document.querySelectorAll('.nav_menu')[2];
     var btn_mob_menu = document.querySelector('.btn_mob_menu');
     var nav_wrapper = document.querySelector('.nav_wrapper');
+    nav_menu.addEventListener('click', function () {
+        nav_wrapper.classList.remove('on');
+    })
     btn_mob_menu.addEventListener('click', function () {
         btn_mob_menu.classList.toggle('menu_close')
         nav_wrapper.classList.toggle('on');
@@ -332,4 +336,6 @@
     function changeNumber3() {
         if (desc) desc.classList.add('ani');
     }
+
+  
 })();
