@@ -24,7 +24,7 @@
                         <div class="desc">
                             <div class="ico_box">
                                 <div class="svg_wrap">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245.07 226.35" class="svg0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245.07 226.35" class="svg0" width="100%" height="100%">
                                         <defs>
                                             <style>
                                                 .cls-1 {
@@ -55,7 +55,7 @@
                             </div>
                             <div class="ico_box">
                                 <div class="svg_wrap">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.44 215.98" class="svg1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.44 215.98" class="svg1" width="100%" height="100%">
                                         <defs>
                                             <style>
                                                 .cls-1 {
@@ -76,8 +76,7 @@
                             </div>
                             <div class="ico_box">
                                 <div class="svg_wrap">
-
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.46 251.66" class="svg2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.46 251.66" class="svg2" width="100%" height="100%">
                                         <defs>
                                             <style>
                                                 .cls-1 {
@@ -98,7 +97,7 @@
                             </div>
                             <div class="ico_box">
                                 <div class="svg_wrap">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.43 239.76" class="svg3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.43 239.76" class="svg3" width="100%" height="100%">
                                         <defs>
                                             <style>
                                                 .cls-1 {

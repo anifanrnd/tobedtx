@@ -30,7 +30,7 @@
                         <div class="desc">
                             <div class="cont_box">
                                 <div class="svg_wrap">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.94 209.4" class="s1_svg0" width="100%" height="100%">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.94 209.4" class="s1_svg0">
                                         <defs>
                                             <style>
                                                 .cls-1 {
