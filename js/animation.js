@@ -175,20 +175,20 @@
             end: screenInner > 767 ? "top -100%" : "top -200%",
             scrub: true,
         },
+        opacity:1,
         scale: 1,
-        y: -500,
         duration: 5
     })
-    gsap.to(".care_item.app > span", {
-        scrollTrigger: {
-            trigger: ".care_item.app",
-            start: screenInner > 767 ? "top 500px" : "top 300px",
-            end: screenInner > 767 ? "top -150%" : "top -250%",
-            scrub: true,
-        },
-        y: -500,
-        duration: 1
-    })
+    //gsap.to(".care_item.app > span", {
+    //    scrollTrigger: {
+    //        trigger: ".care_item.app",
+    //        start: screenInner > 767 ? "top 500px" : "top 300px",
+    //        end: screenInner > 767 ? "top -150%" : "top -250%",
+    //        scrub: true,
+    //    },
+    //    opacity: 1,
+    //    duration: 1
+    //})
     gsap.to(".care_item.app > div", {
         scrollTrigger: {
             trigger: ".care_item.app",
@@ -196,7 +196,8 @@
             end: screenInner > 767 ? "top -150%" : "top -250%",
             scrub: true,
         },
-        y: -500,
+        opacity:1,
+        y: -200,
         duration: 3
     })
     //gsap.to(care_item, {
