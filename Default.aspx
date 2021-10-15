@@ -101,7 +101,7 @@
                             <span class="ani_gr"></span>
                             <span class="ani_gr"></span>
                         </div>
-                        <img src="img/worker0.png" alt="작업자상태:휴식" />
+                        <img src="img/worker2.png" alt="작업자상태:휴식" />
                     </div>
                     <div class="state">
                         <div>
