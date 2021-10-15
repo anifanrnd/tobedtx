@@ -646,10 +646,25 @@
             text-decoration: underline;
         }
 
-
-/* media query */
-@media (max-width: 960px) {
-    .board .card {
+.btn_back {
+    height: 52px;
+    line-height: 52px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid #FFB300;
+    margin: 60px auto;
+    cursor: pointer;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    color: #FFB300;
+}
+    .btn_back:hover {
+        background: #FFB300;
+        color: #303030;
+    }
+    /* media query */
+    @media (max-width: 960px) {
+        .board .card {
         width: 49%;
         border-radius: 12px;
         box-shadow: 0 0 20px rgba(0,0,0,.1);

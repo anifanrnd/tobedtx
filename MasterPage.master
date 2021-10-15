@@ -17,21 +17,21 @@
     <meta name="robots" content="TOBE DTX" />
     <meta name="keywords" content="TOBE DTX">
 
-   <meta data-n-head="ssr" data-hid="keyword" name="keyword" content="TOBE DTX">
+    <meta data-n-head="ssr" data-hid="keyword" name="keyword" content="TOBE DTX">
     <!--OpenGraph-->
     <meta property="og:type" content="website">
-    <meta property="og:image" content="img/logo.png">
     <meta property="og:site_name" content="TOBE DTX" />
     <meta property="og:title" content="TOBE DTX">
     <meta property="og:description" content="TOBE DTX">
-    <meta property="og:url" content="http://www.tobedtx.com">
-    <link rel="canonical" href="http://www.tobedtx.com">
-    <link rel="shortlink" href="http://www.tobedtx.com">
+    <meta property="og:url" content="http://www.anifan.io/tobedtx">
+    <meta property="og:image" content="img/thumb.jpg" />
+    <link rel="canonical" href="http://www.anifan.io/tobedtx">
+    <link rel="shortlink" href="http://www.anifan.io/tobedtx">
     <!--  Default favicon  -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
     <!--  Custom favicon  -->
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta content="#ffffff" name="msapplication-TileColor" />
@@ -50,43 +50,43 @@
     <!--Script-->
     <script>        
         $(document).ready(function () {
-        function checkBroswer() {
+            function checkBroswer() {
 
-            var agent = navigator.userAgent.toLowerCase(),
-                name = navigator.appName,
-                browser = '';
+                var agent = navigator.userAgent.toLowerCase(),
+                    name = navigator.appName,
+                    browser = '';
 
-            // MS 계열 브라우저를 구분
-            if (name === 'Microsoft Internet Explorer' || agent.indexOf('trident') > -1 || agent.indexOf('edge/') > -1) {
-                browser = 'ie';
-                if (name === 'Microsoft Internet Explorer') { // IE old version (IE 10 or Lower)
-                    agent = /msie ([0-9]{1,}[\.0-9]{0,})/.exec(agent);
-                    browser += parseInt(agent[1]);
-                } else { // IE 11+
-                    if (agent.indexOf('trident') > -1) { // IE 11
-                        browser += 11;
-                    } else if (agent.indexOf('edge/') > -1) { // Edge
-                        browser = 'edge';
+                // MS 계열 브라우저를 구분
+                if (name === 'Microsoft Internet Explorer' || agent.indexOf('trident') > -1 || agent.indexOf('edge/') > -1) {
+                    browser = 'ie';
+                    if (name === 'Microsoft Internet Explorer') { // IE old version (IE 10 or Lower)
+                        agent = /msie ([0-9]{1,}[\.0-9]{0,})/.exec(agent);
+                        browser += parseInt(agent[1]);
+                    } else { // IE 11+
+                        if (agent.indexOf('trident') > -1) { // IE 11
+                            browser += 11;
+                        } else if (agent.indexOf('edge/') > -1) { // Edge
+                            browser = 'edge';
+                        }
                     }
+                } else if (agent.indexOf('safari') > -1) { // Chrome or Safari
+                    if (agent.indexOf('opr') > -1) { // Opera
+                        browser = 'opera';
+                    } else if (agent.indexOf('chrome') > -1) { // Chrome
+                        browser = 'chrome';
+                    } else { // Safari
+                        browser = 'safari';
+                    }
+                } else if (agent.indexOf('firefox') > -1) { // Firefox
+                    browser = 'firefox';
                 }
-            } else if (agent.indexOf('safari') > -1) { // Chrome or Safari
-                if (agent.indexOf('opr') > -1) { // Opera
-                    browser = 'opera';
-                } else if (agent.indexOf('chrome') > -1) { // Chrome
-                    browser = 'chrome';
-                } else { // Safari
-                    browser = 'safari';
-                }
-            } else if (agent.indexOf('firefox') > -1) { // Firefox
-                browser = 'firefox';
-            }
 
-            return browser;
-        }
+                return browser;
+            }
     </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-   <%-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <%-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>--%>
     <script src="js/gsap.js"></script>
     <script src="js/ScrollTrigger.js"></script>
@@ -95,7 +95,7 @@
     <form id="form1" runat="server">
         <a href="#container" id="skipnav">본문 바로가기</a>
         <div id="wrapper">
-            <header class="header"> 
+            <header class="header">
                 <div class="header_div_wrapper section_inner">
                     <div class="logo_wrapper">
                         <h1 class="blind">tobedtx</h1>
@@ -150,10 +150,10 @@
                     </div>
                 </div>
             </footer>
-         </div>  
+        </div>
     </form>
 </body>
 
 <script src="js/animation.js"></script>
-    
+
 </html>

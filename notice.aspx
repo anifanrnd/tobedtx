@@ -11,94 +11,26 @@
         <div class="section_inner">
             <section class="board">
                 <div class="layout">
-                    <div class="card">
+                    <div class="card" onclick="location.href='./notice_desc.aspx'">
                         <div class="img_wrap">
                             <img src="img/news.jpg" alt="뉴스이미지" />
                         </div>
                         <div class="text_wrap">
                             <div class="flex">
                                 <div class="category">
-                                    <span>보도자료</span>
+                                    <span>공지사항</span>
                                 </div>
-                                <div class="date">2021-10-14</div>
+                                <div class="date">2021-10-15</div>
                             </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img_wrap">
-                            <img src="img/news.jpg" alt="뉴스이미지" />
-                        </div>
-                        <div class="text_wrap">
-                            <div class="flex">
-                                <div class="category">
-                                    <span>보도자료</span>
-                                </div>
-                                <div class="date">2021-10-14</div>
+                            <div class="title">(주)투비디티엑스 법인 설립 공고</div>
+                            <div class="preview">
+                                안녕하세요.
+당사는 2021년 9월 법인회사 (주)투비디티엑스를 설립하였습니다.
+국내 디지털 치료제 1호 기업으로서 향후 의료, 산업안전보건, 교육등 다양한 분야의 서비스를 제공할 예정이오니.
+지속적인 성원과 관심을 부탁드리겠습니다.
+문의가 필요하신 고객께서는 본사 홈페이지 https://www.tobedtx 에 방문하시어 요청해주십시오.
+감사합니다.
                             </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img_wrap">
-                            <img src="img/news.jpg" alt="뉴스이미지" />
-                        </div>
-                        <div class="text_wrap">
-                            <div class="flex">
-                                <div class="category">
-                                    <span>보도자료</span>
-                                </div>
-                                <div class="date">2021-10-14</div>
-                            </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img_wrap">
-                            <img src="img/news.jpg" alt="뉴스이미지" />
-                        </div>
-                        <div class="text_wrap">
-                            <div class="flex">
-                                <div class="category">
-                                    <span>보도자료</span>
-                                </div>
-                                <div class="date">2021-10-14</div>
-                            </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img_wrap">
-                            <img src="img/news.jpg" alt="뉴스이미지" />
-                        </div>
-                        <div class="text_wrap">
-                            <div class="flex">
-                                <div class="category">
-                                    <span>보도자료</span>
-                                </div>
-                                <div class="date">2021-10-14</div>
-                            </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img_wrap">
-                            <img src="img/news.jpg" alt="뉴스이미지" />
-                        </div>
-                        <div class="text_wrap">
-                            <div class="flex">
-                                <div class="category">
-                                    <span>보도자료</span>
-                                </div>
-                                <div class="date">2021-10-14</div>
-                            </div>
-                            <div class="title">Easy UI 템플릿 기능 추가</div>
-                            <div class="preview">이번 콘텐츠에서는 기본으로 제공하는 템플릿을 간단하게 수정하는 방법에 대해 진행하고자 합니다. 템플릿 수정을 통해 업무에 필요한 기능을 추가하거나 보완할 수 있으며, 더 나아가 필요한 템플릿을 직접 만들어서 사용하는 것도 가능합니다.</div>
                         </div>
                     </div>
                 </div>

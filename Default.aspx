@@ -148,85 +148,66 @@
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="img/man0.jpg" alt="김병조" />
+                            <img src="img/man1.jpg" alt="김정빈" />
                         </div>
                         <div class="member_info">
                             <div class="name">
-                                <p>김병조</p>
-                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                                <p>김정빈</p>
+                                <div class="member_pos">Neurology Assistant Professor,Korea University AnamHospital</div>
                             </div>
                             <div class="history">
-                                <p>고려대학교의료원산학협력단장</p>
-                                <p>고려대학교의학연구처장</p>
-                                <p>Korean Delegate,</p>
-                                <p>International Federation of Clinical Neuro-physiology</p>
+                                <p>NHIS중증질환 산정특례 자문위원</p>
+                                <p>대한수면의학회 평이사</p>
+                                <p>보건복지부 뇌전증지원센터 부센터장</p>
                             </div>
                         </div>
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="img/man0.jpg" alt="김병조" />
+                            <img src="img/man3.jpg" alt="홍성표" />
                         </div>
                         <div class="member_info">
                             <div class="name">
-                                <p>김병조</p>
-                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                                <p>홍성표</p>
+                                <div class="member_pos">공동CEO, CTO</div>
                             </div>
                             <div class="history">
-                                <p>고려대학교의료원산학협력단장</p>
-                                <p>고려대학교의학연구처장</p>
-                                <p>Korean Delegate,</p>
-                                <p>International Federation of Clinical Neuro-physiology</p>
+                                <p>Myriad Group AG, PM</p>
+                                <p>㈜EsmertecKorea 팀장</p>
+                                <p>서울대학교응용생물학</p>
                             </div>
                         </div>
                     </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
-                            <img src="img/man0.jpg" alt="김병조" />
+                            <img src="img/man4.jpg" alt="김강욱" />
                         </div>
                         <div class="member_info">
                             <div class="name">
-                                <p>김병조</p>
-                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                                <p>김강욱</p>
+                                <div class="member_pos">대표변리사</div>
                             </div>
                             <div class="history">
-                                <p>고려대학교의료원산학협력단장</p>
-                                <p>고려대학교의학연구처장</p>
-                                <p>Korean Delegate,</p>
-                                <p>International Federation of Clinical Neuro-physiology</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="member_wrap">
-                        <div class="img_wrap">
-                            <img src="img/man0.jpg" alt="김병조" />
-                        </div>
-                        <div class="member_info">
-                            <div class="name">
-                                <p>김병조</p>
-                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
-                            </div>
-                            <div class="history">
-                                <p>고려대학교의료원산학협력단장</p>
-                                <p>고려대학교의학연구처장</p>
-                                <p>Korean Delegate,</p>
-                                <p>International Federation of Clinical Neuro-physiology</p>
+                                <p>현대엔지니어링플랜트사업부분근무</p>
+                                <p>Applied Materials사근무</p>
+                                <p>KAIST 외국인교수특허전담</p>
+                                <p>화학, 재료분야출원, 심판, 특허분석, 자문</p>
+                                <p>기술가치평가및기술이전컨설팅</p>
+                                <p>미국캘리포니아웨스턴로스쿨법학석사</p>
+                                <p>서울대학교공업화학학사</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="layout">
+                <div class="layout biz">
                     <div class="partner_logo">
                         <img src="img/partner0.png" alt="고려대학교의료원" />
                     </div>
                     <div class="partner_logo">
-                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                        <img src="img/partner1.png" alt="투비소프트" />
                     </div>
                     <div class="partner_logo">
-                        <img src="img/partner0.png" alt="고려대학교의료원" />
-                    </div>
-                    <div class="partner_logo">
-                        <img src="img/partner0.png" alt="고려대학교의료원" />
+                        <img src="img/partner2.png" alt="피플앤테크놀로지" />
                     </div>
                 </div>
             </div>
