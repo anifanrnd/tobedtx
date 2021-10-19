@@ -143,12 +143,14 @@
                     </section>
                     <section class="content2_1">
                         <div class="layout_l">
-                            <img src="img/thesis0.jpg" alt="논문자료1" />
+                            <img src="img/process.png" alt="기립성 저혈압 판단 알고리즘" class="img_row"/>
+                            <img src="img/process_c.png" alt="기립성 저혈압 판단 알고리즘"  class="img_col"/>
                         </div>
                         <div class="layout_r">
-                            <img src="img/thesis1.jpg" alt="논문자료5" />
-                            <img src="img/thesis2.jpg" alt="논문자료6" />
-                            <img src="img/thesis3.jpg" alt="논문자료7" />
+                            <p>사용자의<br />특정한 호흡 유도</p>
+                            <p>심박수 변이<br />데이터 수집</p>
+                            <p>최적화된 AI 알고리즘의 <br />기립성 저혈압 판단</p>
+                            <p>사용자에게<br />낙상 위험도 알림</p>
                         </div>
                     </section>
                 </div>

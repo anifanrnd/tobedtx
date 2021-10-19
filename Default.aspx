@@ -38,7 +38,7 @@
                                 <div class="group group_ani group_ani2">
                                     <img src="img/value1.png" alt="value2" />
                                     <p>국내 1위<br />
-                                        UX/UX 기술</p>
+                                        UX/UI 기술</p>
                                 </div>
                                 <div class="group group_ani group_ani3">
                                     <img src="img/value2.png" alt="value3" />
@@ -129,6 +129,27 @@
             <div class="section_inner">
                 <h2 class="section_title">이분들과 함께하고 있습니다</h2>
                 <div class="layout">
+                    <div class="member_wrap">
+                        <div class="img_wrap">
+                            <img src="img/man.jpg" alt="김동윤" />
+                        </div>
+                        <div class="member_info">
+                            <div class="name">
+                                <p>김동윤</p>
+                                <div class="member_pos">CEO</div>
+                            </div>
+                            <div class="history">
+                                <p>글로벌태권도교육연맹 자문위원</p>
+                                <p>주식회사 투비소프트 부회장</p>
+                                <p>주식회사 애니팬비티에스 이사</p>
+                                <p>주식회사 애니팬 회장</p>
+                                <p>주식회사 그랑들 대표이사</p>
+                                <p>사단법인 국방안보포럼 서울위원</p>
+                                <p>대한민국병장전우회 사업본부장</p>
+                                <p>세계 생활체육 연맹 총회 조직위원회 자문위원</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="member_wrap">
                         <div class="img_wrap">
                             <img src="img/man0.jpg" alt="김병조" />
