@@ -113,7 +113,7 @@
                                 <h3><a href="/tobedtx/sub0.aspx">핵심기술<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
-                                <h3><a href="#contact">제휴문의<span class="bar"></span></a></h3>
+                                <h3><a onclick="pageMove()">제휴문의<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
                                 <h3><a href="/tobedtx/notice.aspx">소식<span class="bar"></span></a></h3>
@@ -155,5 +155,25 @@
 </body>
 
 <script src="js/animation.js"></script>
+<script>
+    var url = window.location.pathname;
+    var btn_mob_menu;
+    function pageMove() {
+        var height;
+        if (url.includes("default") || url === "/tobedtx/" || url.includes("Default")) {
+            height = document.querySelector("#contact").offsetTop;
+            window.scrollTo({ top: height });
+            btn_mob_menu = document.querySelector('.btn_mob_menu');
+            btn_mob_menu.classList.remove('menu_close');
 
+        } else {
+            location.replace("/tobedtx/Default.aspx?text=contact");
+        }
+    }
+
+    if (window.location.search.includes("contact")) {
+        height = document.querySelector("#contact").offsetTop;
+        window.scrollTo({ top: height });
+    }
+</script>
 </html>

@@ -1,63 +1,4 @@
-//(function () {
-//    let slogan = document.querySelector('.slogan_wrapper');
-//    var childs = document.querySelectorAll('.wrapper > *');
-    
-//    var child_two = childs[1].offsetTop;
-//    slogan.className += " slogan_wrapper_act"
-//    var box_ani = this.document.querySelector('.box_ani');
-//    var subtit = this.document.querySelector('.subtit_ani');
-//    var groups = this.document.querySelectorAll('.group_ani');
-
-//    //Çï½ºÄÉ¾î 
-//    var healthCare = document.querySelector('#healthCare');
-//    var healthCare_img = document.querySelector('#healthCare img');
-//    var sc_cnt = 0;
-//    window.__scrollPosition = document.documentElement.scrollTop || 0;
-
-
-
-//    window.addEventListener('scroll', function () {
-//        let _documentY = document.documentElement.scrollTop;
-//        let _direction = _documentY - window.__scrollPosition >= 0 ? true : false;
-//        console.log(_direction)
-//        if (!box_ani.className.includes("act") && this.scrollY > child_two - 100) {
-//            box_ani.className += " act"
-//        }
-//        if (!subtit.className.includes("act") && this.scrollY > child_two ) {
-//            subtit.className += " act"
-//        }
-//        if (!groups[0].className.includes("act") && this.scrollY > child_two + 100) {
-//            groups[0].className += " act"
-//        }
-//        if (!groups[1].className.includes("act") && this.scrollY > child_two + 300) {
-//            groups[1].className += " act"
-//        }
-//        if (!groups[2].className.includes("act") && this.scrollY > child_two + 500) {
-//            groups[2].className += " act"
-//        }
-//        //if (this.scrollY <= healthCare.offsetTop) {
-//        //    if ((this.scrollY - healthCare.offsetTop) / 100 >= 0) {
-//        //        healthCare_img.style.transform = `scale(${(this.scrollY - healthCare.offsetTop) / 100})`
-//        //    }
-//        //}
-//        if (this.scrollY > healthCare.offsetTop && this.scrollY < (healthCare.offsetTop + healthCare.offsetHeight - 500)) {
-//            if (_direction) {
-//                this.console.log(sc_cnt)
-//                sc_cnt++
-//            } else {
-//                this.console.log(sc_cnt)
-//                sc_cnt--
-//            }
-//            if ((this.scrollY - healthCare.offsetTop) / 100 >= 1 && (this.scrollY - healthCare.offsetTop) / 100 <= 5) {
-//                healthCare_img.style.transform = `scale(${(this.scrollY - healthCare.offsetTop) / 100})`
-//            }
-//        }
-//        window.__scrollPosition = _documentY; // Update scrollY
-
-//    })
-//})();
-
-(function() {
+(function () {
     var screenInner = this.innerWidth;
     var header = document.querySelector('.header');
     var nav_menu = document.querySelectorAll('.nav_menu')[2];
@@ -179,16 +120,7 @@
         scale: 1,
         duration: 5
     })
-    //gsap.to(".care_item.app > span", {
-    //    scrollTrigger: {
-    //        trigger: ".care_item.app",
-    //        start: screenInner > 767 ? "top 500px" : "top 300px",
-    //        end: screenInner > 767 ? "top -150%" : "top -250%",
-    //        scrub: true,
-    //    },
-    //    opacity: 1,
-    //    duration: 1
-    //})
+
     gsap.to(".care_item.app > div", {
         scrollTrigger: {
             trigger: ".care_item.app",
@@ -200,33 +132,6 @@
         y: -200,
         duration: 3
     })
-    //gsap.to(care_item, {
-    //    xPercent: -80,
-    //    ease: "none",
-    //    scrollTrigger: {
-    //        trigger: care_item,
-    //        scrub: 1,
-    //        snap: false,
-    //        start: "top",
-    //        end: () => "+=" + care_item.offsetWidth - 100
-    //    }
-    //});
-
-    //gsap.fromTo(".subtit", {
-    //    scrollTrigger: {
-    //        trigger: ".subtit",
-    //        start: "bottom 0",
-    //        end:"bottom 300px"
-    //    },
-    //    y: 100,
-    //    opacity: 0,
-    //    duration: 1,
-    //}, {
-    //    y: 0,
-    //    opacity: 1,
-    //    duration: 1
-    //});
-
 
     var startCount = 0,
         num = { var: startCount };
