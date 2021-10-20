@@ -353,12 +353,12 @@
         .sub0 .content2_1 .layout_r {
             flex-direction: column;
             width: auto;
-            padding:16% 0 16% 16px;
+            padding:9% 0 10% 16px;
             text-align:left;
         }
         .sub0 .content2_1 .img_col {
             display: block;
-            max-width:252px;
+            max-width:120px;
         }
         .sub0 .content2_1 .img_row {
             display: none;

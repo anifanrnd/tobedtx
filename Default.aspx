@@ -157,11 +157,10 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>김병조</p>
-                                <div class="member_pos">Professor/Vice President for Medical Research, Korea University</div>
+                                <div class="member_pos">Professor, Department of Neurology, Korea University Anam Hospital, Korea University College of Medicine</div>
                             </div>
                             <div class="history">
-                                <p>고려대학교의료원산학협력단장</p>
-                                <p>고려대학교의학연구처장</p>
+                                <p>고려대학교 의과대학 신경과학교실 교수/신경과 전문의</p>
                                 <p>Korean Delegate,</p>
                                 <p>International Federation of Clinical Neuro-physiology</p>
                             </div>
