@@ -157,7 +157,7 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>김병조</p>
-                                <div class="member_pos">Professor, Department of Neurology, Korea University Anam Hospital, Korea University College of Medicine</div>
+                                <div class="member_pos">의료기술자문</div>
                             </div>
                             <div class="history">
                                 <p>고려대학교 의과대학 신경과학교실 교수/신경과 전문의</p>
@@ -173,7 +173,7 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>김정빈</p>
-                                <div class="member_pos">Associate Professor, Department of Neurology, Korea University Anam Hospital, Korea University College of Medicine</div>
+                                <div class="member_pos">의료기술자문</div>
                             </div>
                             <div class="history">
                                 <p>NHIS중증질환 산정특례 자문위원</p>
@@ -190,7 +190,7 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>홍성표</p>
-                                <div class="member_pos">공동CEO, CTO</div>
+                                <div class="member_pos">IOT기술자문</div>
                             </div>
                             <div class="history">
                                 <p>Myriad Group AG, PM</p>
@@ -206,7 +206,7 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>김강욱</p>
-                                <div class="member_pos">대표변리사</div>
+                                <div class="member_pos">CTO</div>
                             </div>
                             <div class="history">
                                 <p>현대엔지니어링플랜트사업부분근무</p>
