@@ -174,12 +174,13 @@
                         <div class="member_info">
                             <div class="name">
                                 <p>김정빈</p>
-                                <div class="member_pos">Neurology Assistant Professor,Korea University AnamHospital</div>
+                                <div class="member_pos">Associate Professor, Department of Neurology, Korea University Anam Hospital, Korea University College of Medicine</div>
                             </div>
                             <div class="history">
                                 <p>NHIS중증질환 산정특례 자문위원</p>
+                                <p>보건복지부 뇌전증지원센터 부센터장 겸 연구팀장</p>
+                                <p>대한뇌파연구회 무임소이사</p>
                                 <p>대한수면의학회 평이사</p>
-                                <p>보건복지부 뇌전증지원센터 부센터장</p>
                             </div>
                         </div>
                     </div>
