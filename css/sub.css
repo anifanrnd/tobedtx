@@ -8,6 +8,7 @@
 }
 
 .back_border {
+    background: -o-radial-gradient(closest-side,rgba(255,255,255,.2),transparent);
     background: radial-gradient(closest-side,rgba(255,255,255,.2),transparent);
     background-size: 130% 110%;
     background-position: center;
@@ -29,12 +30,17 @@
 }
 
 .sub0 .content0, .sub0 .content1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1px;
 }
 
     .sub0 .content1 .desc {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
@@ -47,7 +53,11 @@
 .svg_wrap {
     width: 100%;
     height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -58,7 +68,9 @@
 #ico0_2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s;
     animation: dash 0.5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -66,7 +78,9 @@
 #ico0_1.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .3s;
     animation: dash 0.5s .3s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -74,7 +88,9 @@
 #ico0_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .4s;
     animation: dash 0.5s .4s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -82,7 +98,9 @@
 #ico0_3.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .5s;
     animation: dash 0.5s .5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -90,7 +108,9 @@
 #ico0_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .5s;
     animation: dash 0.5s .5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -98,7 +118,9 @@
 #ico0_5.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .8s;
     animation: dash 0.5s .8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -110,7 +132,9 @@
 #ico1_0.ani {
     stroke-dasharray: 164%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 1s;
     animation: dash 1s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -118,14 +142,18 @@
 #ico1_2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .3s;
     animation: dash 0.5s .3s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 #ico1_1.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .4s;
     animation: dash 0.5s .4s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -133,7 +161,9 @@
 #ico1_3.ani {
     stroke-dasharray: 112%;
     stroke-dashoffset: 112%;
+    -webkit-animation: dash 0.5s .5s;
     animation: dash 0.5s .5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -141,7 +171,9 @@
 #ico1_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .8s;
     animation: dash 0.5s .8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -153,14 +185,18 @@
 #ico2_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.8s;
     animation: dash 0.8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 #ico2_1.ani {
     stroke-dasharray: 256%;
     stroke-dashoffset: 256%;
+    -webkit-animation: dash .8s .3s;
     animation: dash .8s .3s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -168,7 +204,9 @@
 #ico2_1-2.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .8s;
     animation: dash 0.5s .8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -176,7 +214,9 @@
 #ico1_3.ani {
     stroke-dasharray: 112%;
     stroke-dashoffset: 112%;
+    -webkit-animation: dash 0.5s .5s;
     animation: dash 0.5s .5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -184,7 +224,9 @@
 #ico1_4.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.5s .8s;
     animation: dash 0.5s .8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
 }
@@ -196,16 +238,27 @@
 #ico3_0.ani {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
+    -webkit-animation: dash 0.8s;
     animation: dash 0.8s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 #ico3_1.ani {
     stroke-dasharray: 400%;
     stroke-dashoffset: 400%;
+    -webkit-animation: dash 1s .5s;
     animation: dash 1s .5s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     opacity: 0
+}
+
+@-webkit-keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1
+    }
 }
 
 @keyframes dash {
@@ -216,6 +269,8 @@
 }
 
 .sub0 .content2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1px;
 }
@@ -233,10 +288,16 @@
     }
 
     .sub0 .content2 .layout {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 24px 0 36px 0;
-        align-items:flex-end;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
     }
 
     .sub0 .content2 .img_ku {
@@ -245,23 +306,28 @@
 
     .sub0 .content2 .img_certi {
         margin-right: 16px;
-        text-align:right;
+        text-align: right;
     }
-        .sub0 .content2 .img_certi img{
-            max-width:240px;
+
+        .sub0 .content2 .img_certi img {
+            max-width: 240px;
         }
-        .sub0 .content2 .thesis {
-            padding: 24px 0;
+
+    .sub0 .content2 .thesis {
+        padding: 24px 0;
+    }
+
+        .sub0 .content2 .thesis img {
+            display: block;
+            max-width: 476px;
+            text-align: center;
+            margin: 0 auto;
         }
-    .sub0 .content2 .thesis img {
-        display:block;
-        max-width: 476px;
-        text-align:center;
-        margin:0 auto;
-    }
-    .sub0 .content2 .thesis p{
-        font-size: 12px;
-    }
+
+        .sub0 .content2 .thesis p {
+            font-size: 12px;
+        }
+
     .sub0 .content2 .tit {
         width: 100%;
         padding-bottom: 8px;
@@ -275,7 +341,12 @@
 
 
 .sub0 .content2_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     background: #303030;
     padding-bottom: 48px;
@@ -288,7 +359,11 @@
 
     .sub0 .content2_1 .layout_r {
         padding: 0 4%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         text-align: center;
     }
@@ -296,12 +371,13 @@
         .sub0 .content2_1 .layout_r p {
             width: 150px;
         }
-    .sub0 .content2_1 .img_col{
-        display:none;
+
+    .sub0 .content2_1 .img_col {
+        display: none;
     }
-    /* media query */
-    @media (max-width: 767px) {
-        .sub0 .tit {
+/* media query */
+@media (max-width: 767px) {
+    .sub0 .tit {
         width: 100%;
         margin-right: 0;
         padding-bottom: 12px;
@@ -313,15 +389,27 @@
     }
 
     .sub0 .content0, .sub0 .content1 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
     .sub0 .content2 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
-        .sub0 .content2 .layout{
-            flex-direction:column;
-            align-items:center;
+
+        .sub0 .content2 .layout {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
         }
 
         .sub0 .content2 .layout_l, .sub0 .content2 .layout_r {
@@ -342,8 +430,13 @@
         }
 
     .sub0 .content2_1 {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
-        justify-content:center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
         .sub0 .content2_1 .layout_r p {
@@ -351,15 +444,20 @@
         }
 
         .sub0 .content2_1 .layout_r {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
             width: auto;
-            padding:9% 0 10% 16px;
-            text-align:left;
+            padding: 9% 0 10% 16px;
+            text-align: left;
         }
+
         .sub0 .content2_1 .img_col {
             display: block;
-            max-width:120px;
+            max-width: 120px;
         }
+
         .sub0 .content2_1 .img_row {
             display: none;
         }
@@ -379,6 +477,8 @@
     }
 
 .sub1 .content1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1px;
 }
@@ -419,6 +519,8 @@
         }
 
 .sub1 .content2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -435,8 +537,13 @@
         width: 67%;
         padding: 36px 0 48px 36px;
         background: #303030;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
@@ -446,11 +553,19 @@
             height: 100%;
             background: #303030;
             content: '';
+            -webkit-animation: slide 1s ease-in-out;
             animation: slide 1s ease-in-out;
+            -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
             bottom: 0;
             right: 0;
         }
+
+@-webkit-keyframes slide {
+    to {
+        width: 0;
+    }
+}
 
 @keyframes slide {
     to {
@@ -493,6 +608,9 @@
 /* media query */
 @media (max-width: 767px) {
     .sub1 .content1 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -506,6 +624,9 @@
         }
 
     .sub1 .content2 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -518,13 +639,24 @@
         .sub1 .content2 .desc {
             width: 100%;
             padding: 0 0 48px 0;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
         }
 
         .sub1 .content2 .ico_plus {
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
             transform: rotate(90deg);
             margin-top: 24px;
         }
+
+    @-webkit-keyframes slide {
+        to {
+            height: 0;
+        }
+    }
 
     @keyframes slide {
         to {
@@ -558,14 +690,20 @@
 }
 
     .board .layout {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
     .board .card {
         width: 31%;
         border-radius: 12px;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
         box-shadow: 0 0 20px rgba(0,0,0,.1);
         margin-bottom: 60px;
         cursor: pointer;
@@ -573,10 +711,12 @@
 
         .board .card:hover {
             -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
             transition: all .3s ease;
             -webkit-transform: translateY(-5px);
             transform: translateY(-5px);
             -ms-transform: translateY(-5px);
+            -webkit-box-shadow: 4px 12px 20px 6px rgba(0,0, 0, 0.18);
             box-shadow: 4px 12px 20px 6px rgba(0,0, 0, 0.18);
         }
 
@@ -612,7 +752,11 @@
         }
 
         .board .card .text_wrap .flex {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
             margin-bottom: 8px;
         }
@@ -624,6 +768,7 @@
 
         .board .card .text_wrap .title {
             font-size: 24px;
+            -o-text-overflow: ellipsis;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
@@ -633,6 +778,7 @@
         .board .card .text_wrap .preview {
             width: 100%;
             overflow: hidden;
+            -o-text-overflow: ellipsis;
             text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-line-clamp: 2;
@@ -643,8 +789,14 @@
         }
 
 .pagenation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -667,6 +819,7 @@
     }
 
     .pagenation .btn:hover {
+        -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.05);
         box-shadow: 0 4px 10px rgba(0,0,0,.05);
     }
 
@@ -692,7 +845,11 @@
     border: 2px solid #FFB300;
     margin: 60px auto;
     cursor: pointer;
+    -webkit-transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+    transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+    -o-transition: color 0.5s, transform 0.2s, background-color 0.2s;
     transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
     color: #FFB300;
 }
 
@@ -705,6 +862,7 @@
     .board .card {
         width: 49%;
         border-radius: 12px;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
         box-shadow: 0 0 20px rgba(0,0,0,.1);
         margin-bottom: 60px;
         cursor: pointer;
@@ -715,6 +873,7 @@
     .board .card {
         width: 100%;
         border-radius: 12px;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
         box-shadow: 0 0 20px rgba(0,0,0,.1);
         margin-bottom: 60px;
         cursor: pointer;
