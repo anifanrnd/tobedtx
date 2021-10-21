@@ -139,11 +139,9 @@
                                 <div class="member_pos">CEO</div>
                             </div>
                             <div class="history">
-                                <p>글로벌태권도교육연맹 자문위원</p>
                                 <p>주식회사 투비소프트 부회장</p>
                                 <p>주식회사 애니팬비티에스 이사</p>
                                 <p>주식회사 애니팬 회장</p>
-                                <p>주식회사 그랑들 대표이사</p>
                                 <p>사단법인 국방안보포럼 서울위원</p>
                                 <p>대한민국병장전우회 사업본부장</p>
                                 <p>세계 생활체육 연맹 총회 조직위원회 자문위원</p>
@@ -176,6 +174,7 @@
                                 <div class="member_pos">의료기술자문</div>
                             </div>
                             <div class="history">
+                                <p>고려대학교 의과대학 신경과학교실 부교수/신경과 전문의</p>
                                 <p>NHIS중증질환 산정특례 자문위원</p>
                                 <p>보건복지부 뇌전증지원센터 부센터장 겸 연구팀장</p>
                                 <p>대한뇌파연구회 무임소이사</p>
@@ -193,6 +192,7 @@
                                 <div class="member_pos">IOT기술자문</div>
                             </div>
                             <div class="history">
+                                <p>피플앤드테크놀러지 대표이사</p>
                                 <p>Myriad Group AG, PM</p>
                                 <p>㈜EsmertecKorea 팀장</p>
                                 <p>서울대학교응용생물학</p>
@@ -209,6 +209,7 @@
                                 <div class="member_pos">CTO</div>
                             </div>
                             <div class="history">
+                                <p>특허법인 다해 대표변리사</p>
                                 <p>현대엔지니어링플랜트사업부분근무</p>
                                 <p>Applied Materials사근무</p>
                                 <p>KAIST 외국인교수특허전담</p>
