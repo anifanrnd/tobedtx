@@ -186,16 +186,16 @@ body, button, input, select, td, textarea, th {
     display: flex;
 }
 
-    .nav a {
-        position: relative;
-        display: inline-block;
-        height: 80px;
-        padding: 0 24px;
-        line-height: 80px;
-        font-size: 16px;
-        font-weight: 600;
-        color: #fff;
-    }
+.nav_menu h3 a {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    padding: 0 24px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
 
 .bar {
     position: absolute;
@@ -219,10 +219,28 @@ body, button, input, select, td, textarea, th {
         -o-transition: all .2s ease-in;
         transition: all .2s ease-in;
     }
-
-.mob_menu_wrapper {
-    display: none;
+.nav_menu{
+    position:relative;
 }
+    
+    .nav_menu ul {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        background: rgba(0,0,0,0.9);
+    }
+        .nav_menu ul a{
+            display:block;
+            padding: 8px 16px;
+        }
+    .nav_menu.depth:hover ul {
+        display: block;
+        transition: all 0.3s;
+    }
+        .mob_menu_wrapper {
+            display: none;
+        }
 /* visual */
 .visual {
     height: 100vh;
@@ -720,6 +738,7 @@ body, button, input, select, td, textarea, th {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        padding-top:0;
     }
 
 .partner .member_wrap {
@@ -787,18 +806,19 @@ body, button, input, select, td, textarea, th {
         max-width: 200px;
         margin: 0 auto;
     }
+
 .partner_biz {
     padding-top: 50px;
 }
-    .partner_biz h3{
-        text-align:center;
+
+    .partner_biz h3 {
+        text-align: center;
         font-size: 32px;
-        font-weight:normal
     }
-    /* contact */
-    .contact {
-        padding-bottom: 100px;
-    }
+/* contact */
+.contact {
+    padding-bottom: 100px;
+}
 
     .contact .container {
         background: #303030;
@@ -846,6 +866,7 @@ footer {
 
     .foot_div a {
         color: #999;
+        margin-left: 16px;
     }
 
 
@@ -1075,7 +1096,8 @@ footer {
         padding: 2px 6px;
     }
     /* partner */
-    .partner .layout {
+    .partner_biz {
+        padding-bottom: 100px;
     }
 
     .partner .member_wrap {

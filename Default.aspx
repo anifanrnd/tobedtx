@@ -235,28 +235,10 @@
                         <div class="partner_logo">
                             <img src="img/partner2.png" alt="피플앤테크놀로지" />
                         </div>
+                        <div class="partner_logo">
+                            <img src="img/partner3.png" alt="스마트디아스노시스" />
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="contact">
-            <div class="section_inner">
-                <h2 class="section_title">무엇이 궁금하신가요?</h2>
-                <div class="section_subtit">투비DTX와의 업무 제휴 / 제안 / 질문사항 등을 보내주시면  빠른 시일 내 연락드리겠습니다.</div>
-                <div class="container">
-                    <div class="group">
-                        <label for="userMail">메일주소</label>
-                        <input id="userMail" type="text" value="" placeholder="email@email.com" />
-                    </div>
-                    <div class="group">
-                        <label for="contactTit">제목</label>
-                        <input id="contactTit" type="text" value="" placeholder="제목을 입력해주세요" />
-                    </div>
-                    <div class="group">
-                        <label for="contactTxt">메일주소</label>
-                        <textarea id="contactTxt" placeholder="업무 제휴 / 제안 / 질문 사항을 입력해주세요"></textarea>
-                    </div>
-                    <div class="button material-bubble" onclick="submit()"><span>문의하기</span></div>
                 </div>
             </div>
         </section>

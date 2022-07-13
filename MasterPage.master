@@ -114,13 +114,21 @@
                                 <h3><a href="#mission">회사소개<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
-                                <h3><a href="/tobedtx/sub0.aspx">핵심기술<span class="bar"></span></a></h3>
+                                <h3><a href="/sub0.aspx">핵심기술<span class="bar"></span></a></h3>
+                            </div>
+                            <div class="nav_menu depth">
+                                <h3><a href="/medical/coreTech.html">의학정보<span class="bar"></span></a></h3>
+                                <ul>
+                                    <li><a href="/medical/medi01.html">심박수</a></li>
+                                    <li><a href="/medical/medi02.html">심박변이</a></li>
+                                    <li><a href="/medical/medi03.html">기립성저혈압</a></li>
+                                </ul>
                             </div>
                             <div class="nav_menu">
-                                <h3><a onclick="pageMove()">제휴문의<span class="bar"></span></a></h3>
+                                <h3><a href="/notice.aspx">소식<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
-                                <h3><a href="/tobedtx/notice.aspx">소식<span class="bar"></span></a></h3>
+                                <h3><a href="/experience/exp01.html">체험<span class="bar"></span></a></h3>
                             </div>
                         </div>
                     </div>
@@ -147,6 +155,7 @@
                             <span>대표이사 : 김동윤</span>
                             <address>주소 : 서울특별시 성북구 안암로 145, 308호</address>
                             <span>대표전화 : 02-2140-7782</span>
+                            <a href="mailto:﻿"dtx@tobedtx.com">문의메일 : dtx@tobedtx.com</a>
                         </div>
                         <div class="foot_div">
                             <span>Copyrights ⓒ TOBEDTX. All Rights Reserved.</span>
