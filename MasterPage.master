@@ -5,8 +5,8 @@
 <html lang="kr">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>tobeDTX</title>
-    <meta name="description" content="1080 올인원 디지털 헬스케어 TOBE DTX">
+    <title>투비디티엑스 - tobeDTX</title>
+    <meta name="description" content="투비디티엑스는 IT기술과 의학기술을 융합한 미래지향적 헬스케어 플랫폼 전문회사입니다.">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta name="format-detection" content="telephone=no" />
     <%--  --%>
@@ -15,7 +15,7 @@
     <meta name="robots" content="TOBE DTX" />
     <meta name="robots" content="TOBE DTX" />
     <meta name="robots" content="TOBE DTX" />
-    <meta name="keywords" content="TOBE DTX">
+    <meta name="keywords" content="TOBE DTX, 투비디티엑스, 웨어러블 디바이스, AI 플랫폼 서비스, 응용 소프트웨어 개발, 기립성저혈압, 자율신경계, 웨어러블, 건강관리">
 
     <meta data-n-head="ssr" data-hid="keyword" name="keyword" content="TOBE DTX">
     <!--OpenGraph-->
@@ -23,10 +23,10 @@
     <meta property="og:site_name" content="TOBE DTX" />
     <meta property="og:title" content="TOBE DTX">
     <meta property="og:description" content="TOBE DTX">
-    <meta property="og:url" content="http://www.anifan.io/tobedtx">
+    <meta property="og:url" content="http://www.tobedtx.com/tobedtx">
     <meta property="og:image" content="img/thumb.jpg" />
-    <link rel="canonical" href="http://www.anifan.io/tobedtx">
-    <link rel="shortlink" href="http://www.anifan.io/tobedtx">
+    <link rel="canonical" href="http://www.tobedtx.com/tobedtx">
+    <link rel="shortlink" href="http://www.tobedtx.com">
     <!--  Default favicon  -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -47,6 +47,10 @@
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <!--Link jQuery-->
     <script src="js/jquery.min.js"></script>
+    <script src="js/email.js"></script>
+     <!--Link jQuery-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.ajax-cross-origin.min.js"></script>
     <!--Script-->
     <script>        
         $(document).ready(function () {
@@ -107,7 +111,7 @@
                         <h2 class="blind">tobedtx navigation</h2>
                         <div class="nav">
                             <div class="nav_menu">
-                                <h3><a href="/tobedtx/default.aspx">회사소개<span class="bar"></span></a></h3>
+                                <h3><a href="#mission">회사소개<span class="bar"></span></a></h3>
                             </div>
                             <div class="nav_menu">
                                 <h3><a href="/tobedtx/sub0.aspx">핵심기술<span class="bar"></span></a></h3>
@@ -142,7 +146,7 @@
                         <div class="foot_div">
                             <span>대표이사 : 김동윤</span>
                             <address>주소 : 서울특별시 성북구 안암로 145, 308호</address>
-                            <span>대표전화 : 02-522-1125</span>
+                            <span>대표전화 : 02-2140-7782</span>
                         </div>
                         <div class="foot_div">
                             <span>Copyrights ⓒ TOBEDTX. All Rights Reserved.</span>
@@ -157,7 +161,7 @@
 <script src="js/animation.js"></script>
 <script>
     var url = window.location.pathname;
-    var btn_mob_menu;
+    var btn_mob_menuW
     function pageMove() {
         var height;
         if (url.includes("default") || url === "/tobedtx/" || url.includes("Default")) {

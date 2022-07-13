@@ -223,15 +223,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="layout biz">
-                    <div class="partner_logo">
-                        <img src="img/partner0.png" alt="고려대학교의료원" />
-                    </div>
-                    <div class="partner_logo">
-                        <img src="img/partner1.png" alt="투비소프트" />
-                    </div>
-                    <div class="partner_logo">
-                        <img src="img/partner2.png" alt="피플앤테크놀로지" />
+                <div class="partner_biz">
+                    <h3>Partners</h3>
+                    <div class="layout biz">
+                        <div class="partner_logo">
+                            <img src="img/partner0.png" alt="고려대학교의료원" />
+                        </div>
+                        <div class="partner_logo">
+                            <img src="img/partner1.png" alt="투비소프트" />
+                        </div>
+                        <div class="partner_logo">
+                            <img src="img/partner2.png" alt="피플앤테크놀로지" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -253,7 +256,7 @@
                         <label for="contactTxt">메일주소</label>
                         <textarea id="contactTxt" placeholder="업무 제휴 / 제안 / 질문 사항을 입력해주세요"></textarea>
                     </div>
-                    <div class="button material-bubble"><span>문의하기</span></div>
+                    <div class="button material-bubble" onclick="submit()"><span>문의하기</span></div>
                 </div>
             </div>
         </section>
