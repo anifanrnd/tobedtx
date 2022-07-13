@@ -375,6 +375,18 @@
     .sub0 .content2_1 .img_col {
         display: none;
     }
+
+    /* medi */
+#medi01 ul{
+    padding: 24px 0;
+}
+#medi01 ul li {
+    list-style: disc;
+    list-style-position: inside
+}
+#medi02 p {
+    padding-bottom:24px;
+}
 /* media query */
 @media (max-width: 767px) {
     .sub0 .tit {

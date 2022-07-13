@@ -36,7 +36,7 @@
 }
 
 img {
-    width: 100%
+    width: 100%;
 }
 
 .section_inner {
@@ -83,11 +83,18 @@ img {
 .anchor {
     display: block;
     height: 80px;
-    margin-top: -80px; /* 헤더의 height와 동일한 값 */
+    margin-top: -80px;
+    /* 헤더의 height와 동일한 값 */
     visibility: hidden;
 }
 /*폰트설정*/
-body, button, input, select, td, textarea, th {
+body,
+button,
+input,
+select,
+td,
+textarea,
+th {
     font-family: 'Noto Sans CJK KR', 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, Microsoft NeoGothic, Arial, Droid sans, sans-serif;
     font-variation-settings: 'wght' 200;
     /*font-size: 100%;*/
@@ -199,7 +206,7 @@ body, button, input, select, td, textarea, th {
 
 .bar {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -210,19 +217,20 @@ body, button, input, select, td, textarea, th {
 }
 
 .nav a:hover {
-    color: #FFB300
+    color: #FFB300;
 }
 
     .nav a:hover .bar {
         width: 60%;
-        -webkit-transition: all .2s ease-in;
-        -o-transition: all .2s ease-in;
-        transition: all .2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
     }
-.nav_menu{
-    position:relative;
+
+.nav_menu {
+    position: relative;
 }
-    
+
     .nav_menu ul {
         display: none;
         position: absolute;
@@ -230,17 +238,21 @@ body, button, input, select, td, textarea, th {
         left: 20px;
         background: rgba(0,0,0,0.9);
     }
-        .nav_menu ul a{
-            display:block;
+
+        .nav_menu ul a {
+            display: block;
             padding: 8px 16px;
+            color:#fff;
         }
+
     .nav_menu.depth:hover ul {
         display: block;
         transition: all 0.3s;
     }
-        .mob_menu_wrapper {
-            display: none;
-        }
+
+.mob_menu_wrapper {
+    display: none;
+}
 /* visual */
 .visual {
     height: 100vh;
@@ -482,7 +494,7 @@ body, button, input, select, td, textarea, th {
     text-align: center;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding: 0px;
+    padding: 0;
     font-size: 70px;
     font-weight: bold;
     color: rgba(0,0,0,0.05);
@@ -588,11 +600,11 @@ body, button, input, select, td, textarea, th {
         transform: translate(0, -90px) scale(0.1);
         opacity: 0;
         z-index: -1;
-        -webkit-transition: opacity 0.3s, background-color 0.3s, -webkit-transform .3s;
-        transition: opacity 0.3s, background-color 0.3s, -webkit-transform .3s;
-        -o-transition: transform .3s, opacity 0.3s, background-color 0.3s;
-        transition: transform .3s, opacity 0.3s, background-color 0.3s;
-        transition: transform .3s, opacity 0.3s, background-color 0.3s, -webkit-transform .3s;
+        -webkit-transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+        transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+        transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+        transition: transform 0.3s, opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
     }
 
     .material-bubble:hover::after {
@@ -604,7 +616,6 @@ body, button, input, select, td, textarea, th {
         -ms-transform: scale(1) translate(0, -90px);
         transform: scale(1) translate(0, -90px);
     }
-
 
 /* healthCare*/
 .healthCare {
@@ -627,7 +638,6 @@ body, button, input, select, td, textarea, th {
     color: #303030;
 }
 
-
 /* industry */
 .industry {
     background: #303030;
@@ -645,7 +655,8 @@ body, button, input, select, td, textarea, th {
             position: sticky;
         }
 
-    .industry .section_title, .industry .section_subtit {
+    .industry .section_subtit,
+    .industry .section_title {
         color: #fff;
     }
 
@@ -655,7 +666,8 @@ body, button, input, select, td, textarea, th {
         display: flex;
     }
 
-.worker, .state {
+.state,
+.worker {
     width: 50%;
 }
 
@@ -689,7 +701,7 @@ body, button, input, select, td, textarea, th {
     }
 
 .message {
-    background: url(../img/quote0.svg) no-repeat 24px 0px;
+    background: url(../img/quote0.svg) no-repeat 24px 0;
 }
 
     .message span {
@@ -738,7 +750,7 @@ body, button, input, select, td, textarea, th {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        padding-top:0;
+        padding-top: 0;
     }
 
 .partner .member_wrap {
@@ -827,7 +839,8 @@ body, button, input, select, td, textarea, th {
         color: #fff;
     }
 
-    .contact input, .contact textarea {
+    .contact input,
+    .contact textarea {
         display: block;
         width: 100%;
         border-radius: 4px;
@@ -854,7 +867,7 @@ footer {
 .logo_foot_wrapper {
     width: 120px;
     padding-bottom: 24px;
-    text-align: center
+    text-align: center;
 }
 
 .foot_div {
@@ -868,7 +881,6 @@ footer {
         color: #999;
         margin-left: 16px;
     }
-
 
 /* media query */
 @media (max-width: 767px) {
@@ -893,9 +905,9 @@ footer {
         width: 100%;
         overflow: hidden;
         height: 100vh;
-        -webkit-transition: right .5s;
-        -o-transition: right .5s;
-        transition: right .5s
+        -webkit-transition: right 0.5s;
+        -o-transition: right 0.5s;
+        transition: right 0.5s;
     }
 
         .nav_wrapper.on {
@@ -903,9 +915,9 @@ footer {
             right: 0;
             height: 100%;
             overflow: hidden;
-            -webkit-transition: all .5s;
-            -o-transition: all .5s;
-            transition: all .5s;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
             background: #303030;
         }
 
@@ -984,7 +996,7 @@ footer {
     }
 
     .mob_menu_line0 {
-        top: 14px
+        top: 14px;
     }
 
     .mob_menu_line1 {
@@ -1063,10 +1075,11 @@ footer {
         flex-direction: column;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
     }
 
-    .worker, .state {
+    .state,
+    .worker {
         width: 70%;
     }
 
