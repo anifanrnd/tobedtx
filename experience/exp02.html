@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <!--Link Nomalizing CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <!--Link Style CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sub.css" />
+</head>
+
+
+
+<body>
+    <div id="exp01" class="experience">
+        <div class="top">
+            <div class="section_inner">
+                <div class="tit">기립성 저혈압 진단 체험</div>
+            </div>
+        </div>
+        <div class="section_inner">
+            <section class="sec_exp">
+                <div class="img_wrap">
+                    <img src="../img/img_doctor.png" alt="의사" />
+                </div>
+                <div class="desc">
+                    <p>기본정보를 입력해 주세요.</p>
+                </div>
+                <form class="form_user_info">
+                    <div class="group_input">
+                        <label for="state">혈압</label>
+                        <select name="state" id="state">
+                            <option value="10">저혈압</option>
+                            <option value="20">정상</option>
+                            <option value="30">고혈압 전단계</option>
+                            <option value="40">고혈압 1단계</option>
+                            <option value="50">고혈압 2단계</option>
+                        </select>
+                    </div>
+                    <div class="group_input">
+                        <label for="birth">생년월일</label>
+                        <input type="date" id="birth" />
+                    </div>
+                    <div class="group_input">
+                        <p>성별</p>
+                        <div class="flex">
+                            <div class="group_radio">
+                                <input type="radio" id="gender1" value="여성" checked="checked" name="gender">
+                                <label for="gender1">여성</label>
+                            </div>
+                            <div class="group_radio">
+                                <input type="radio" id="gender2" value="남성" name="gender">
+                                <label for="gender2">남성</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group_input">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div class="group_input">
+                        <label for="mail">이메일</label>
+                        <input type="text" id="mail" />
+                    </div>
+                </form>
+                <div class="btn_area">
+                    <div class="btn" onclick="location.href='exp03.html'">다음</div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

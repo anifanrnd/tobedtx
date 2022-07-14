@@ -127,8 +127,12 @@
                             <div class="nav_menu">
                                 <h3><a href="/notice.aspx">소식<span class="bar"></span></a></h3>
                             </div>
-                            <div class="nav_menu">
+                            <div class="nav_menu depth right">
                                 <h3><a href="/experience/exp01.html">체험<span class="bar"></span></a></h3>
+                                <ul>
+                                    <li><a href="/experience/exp01.html">기립성 저혈압 진단 체험</a></li>
+                                    <li><a href="/experience/val01.html">발살바 호흡 연습</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

@@ -238,11 +238,16 @@ th {
         left: 20px;
         background: rgba(0,0,0,0.9);
     }
+    .nav_menu.right ul {
+        left: auto;
+        right: 16px;
+    }
 
         .nav_menu ul a {
             display: block;
             padding: 8px 16px;
-            color:#fff;
+            color: #fff;
+            white-space: nowrap;
         }
 
     .nav_menu.depth:hover ul {
