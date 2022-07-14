@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="sub0.aspx.cs" Inherits="tobedtx_Homepage_company" MasterPageFile="./MasterPage.master" %>
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-    <div class="page_wrapper sub0">
+    <div class="page_wrapper sub0 subBg">
         <div class="section_inner">
             <div class="back_border">
                 <div class="grid">
