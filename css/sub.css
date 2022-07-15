@@ -917,7 +917,7 @@
     padding-bottom:100px;
 }
 .experience .top {
-    padding: 100px 0 0;
+    padding: 160px 0 0;
 }
 
     .experience .top .tit {
@@ -1010,13 +1010,14 @@
     .flex .group_radio{
         width:100%;
     }
-    .group_radio input[type=radio] {
-        width: 0;
-        height: 0;
-        position: absolute;
-        left: -9999px;
-    }
-input[type=radio] + label {
+
+.form_user_info .group_radio input[type=radio] {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+}
+.form_user_info input[type=radio] + label {
     display: block;
     margin: 0;
     width: 100%;
@@ -1030,7 +1031,7 @@ input[type=radio] + label {
     cursor: pointer;
 }
 
-input[type=radio]:checked + label {
+.form_user_info input[type=radio]:checked + label {
     background-color: #ff2066;
     color: #FFF;
     box-shadow: 0px 2px 4px rgba(255, 45, 102, 0.12);
@@ -1082,12 +1083,152 @@ table.table_test_type {
     text-align:center;
     color:#606060;
 }
+.sec_exp .p_bold {
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: 16px;
+}
+.sec_exp .p_highlight{
+    color:#ff2066;
+    padding: 16px 0;
+    font-size: 16px;
+}
+.survey {
+    padding: 24px 16px;
+    background: #FFF9FA;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(255, 45, 102, 0.12);
+    margin-bottom: 16px;
+}
+    .survey .quest{
+        font-weight:bold;
+    }
+    .answer .a_top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 12px
+    }
+.score{
+    display:flex;
+    justify-content:space-between
+}
+.survey input[type=radio] {
+    position: absolute;
+    opacity: 0;
+}
+.radio-label{
+    display:inline-block;
+    padding-top: 1.6em;
+    position:relative;
+    width: 1.4em;
+    text-align:center;
+}
+    .radio-label.row {
+        width: auto;
+    }
+.survey input[type=radio] + .radio-label:before {
+    content: "";
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    position: absolute;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+    top: 0;
+    left: 0;
+}
+.survey input[type=radio] + .radio-label.row:before{
+    top:auto;
+}
+.survey input[type=radio] + .radio-label.row{
+    padding-top:8px;
+    padding-left: 1.8em;
+}
 
+.survey input[type=radio]:checked + .radio-label:before {
+    background-color: #ff2066;
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.survey input[type=radio]:checked + .radio-label {
+    color: #ff2066;
+}
+
+    .score input[type=radio]:focus + .radio-label:before {
+        outline: none;
+        border-color: #ff2066;
+    }
+
+.survey input[type=radio]:disabled + .radio-label:before {
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+    border-color: #b4b4b4;
+    background: #b4b4b4;
+}
+
+.survey input[type=radio] + .radio-label:empty:before {
+    margin-right: 0;
+}
+.percent {
+    position: relative;
+    margin-bottom:16px;
+}
+    .percent svg {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        transform: scaleX(-1) rotate(-90deg);
+    }
+
+        .percent svg circle {
+            width: 100%;
+            height: 100%;
+            fill: none;
+            stroke: #f0f0f0;
+            stroke-width: 10;
+            stroke-linecap: round;
+        }
+
+            .percent svg circle:last-of-type {
+                stroke-dasharray: 377px;
+                stroke-dashoffset: calc(377px - (377px * var(--percent)) / 100);
+                stroke: #ff2066;
+            }
+
+    .percent .number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+        .percent .number h3 {
+            font-weight: 200;
+            font-size: 24px
+        }
+
+            .percent .number h3 span {
+                font-size: 24px
+            }
+
+.progress{
+    text-align:center;
+    padding: 24px 0;
+}
 @media (max-width: 767px) {
-    .btn_area {
+    .btn_area.m_col {
         flex-direction: column;
     }
         .btn_area .btn{
             margin-bottom:24px;
+            width:100%;
+        }
+        .btn_area.m_col .btn {
+            width:90%;
         }
 }
