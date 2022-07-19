@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
     <!--Link Nomalizing CSS-->
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
     <!--Link Style CSS-->
@@ -20,41 +21,43 @@
         </div>
         <div class="section_inner">
             <section class="sec_exp">
-                <div class="img_wrap">
-                    <img src="../img/img_doctor.png" alt="의사" />
-                </div>
-                <div class="desc">
-                    <p>비교표를 보고 진단 유형을 선택해 주세요.</p>
-                </div>
-                <table class="table_test_type">
-                    <caption>진단 유형 비교 표</caption>
+                <div class="shadow_box">
+                    <div class="img_wrap">
+                        <img src="../img/img_doctor.png" alt="의사" />
+                    </div>
+                    <div class="desc">
+                        <p>비교표를 보고 진단 유형을 선택해 주세요.</p>
+                    </div>
+                    <table class="table_test_type">
+                        <caption>진단 유형 비교 표</caption>
 
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>간편 진단</th>
-                            <th>정밀 진단</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">진단 시간</th>
-                            <td>1분 미만</td>
-                            <td>5분 정도</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">자가 진단</th>
-                            <td class="even">Skip 가능</td>
-                            <td class="even">포함</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">정확도</th>
-                            <td>80% 정도</td>
-                            <td>80% 정도</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="p_small">정밀 진단은 정확도는 높은 대신 시간이 오래 걸립니다.</p>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>간편 진단</th>
+                                <th>정밀 진단</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">진단 시간</th>
+                                <td>1분 미만</td>
+                                <td>5분 정도</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">자가 진단</th>
+                                <td class="even">Skip 가능</td>
+                                <td class="even">포함</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">정확도</th>
+                                <td>80% 정도</td>
+                                <td>80% 정도</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="p_small">정밀 진단은 정확도는 높은 대신 시간이 오래 걸립니다.</p>
+                </div>
                 <div class="btn_area">
                     <div class="btn" onclick="location.href='exp0401.html'">간편 진단</div>
                     <div class="btn" onclick="location.href='exp0401.html'">정밀 진단</div>
