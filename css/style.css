@@ -937,17 +937,18 @@ footer {
         display: block;
     }
 
-        .nav a {
-            display: block;
-            width: 100%;
-            height: 64px;
-            margin: 24px 0;
-            line-height: 64px;
-            color: #fff;
-            font-size: 24px;
-            font-weight: 600;
-            text-align: center;
-        }
+    .nav_menu h3 a {
+        display: block;
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        background: rgba(0,0,0,0.1);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
 
     .bar {
         position: absolute;
@@ -1010,6 +1011,12 @@ footer {
 
     .mob_menu_line2 {
         top: 26px;
+    }
+    .nav_menu ul {
+        display: block;
+        position: static;
+        background: rgba(0,0,0,0);
+        text-align:center
     }
     /* common */
     .section_title {
