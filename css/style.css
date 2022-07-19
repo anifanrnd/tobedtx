@@ -865,8 +865,9 @@ th {
 /* footer */
 footer {
     padding: 36px 0;
-    border-top: 1px solid rgba(0,0,0,.05);
+    border-top: 1px solid rgba(255,255,255,.2);
     background: #303030;
+    margin-top: -1px;
 }
 
 .logo_foot_wrapper {
