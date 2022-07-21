@@ -161,8 +161,12 @@
                             <span>대표전화 : 02-2140-7782</span>
                             <a href="mailto:﻿"dtx@tobedtx.com">문의메일 : dtx@tobedtx.com</a>
                         </div>
+                        <div class="foot_div links">
+                            <a href="/privacy.html">개인정보처리방침</a>
+                            <a href="/terms.html">이용약관</a>
+                        </div>
                         <div class="foot_div">
-                            <span>Copyrights ⓒ TOBEDTX. All Rights Reserved.</span>
+                            <span class="copyright">Copyrights ⓒ TOBEDTX. All Rights Reserved.</span>
                         </div>
                     </div>
                 </div>

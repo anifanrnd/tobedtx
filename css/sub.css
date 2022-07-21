@@ -979,8 +979,14 @@
         text-align: center;
         font-size: 18px;
         width: 30%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -1017,7 +1023,7 @@
         margin-top: 8px;
         list-style-position: inside;
         text-indent: -24px;
-        padding-left:24px;
+        padding-left: 24px;
     }
 
 .form_user_info {
@@ -1256,12 +1262,12 @@ table.table_test_type {
     margin-right: 0;
 }
 
-.percent {
+.per {
     position: relative;
     margin-bottom: 16px;
 }
 
-    .percent svg {
+    .per svg {
         position: relative;
         width: 160px;
         height: 160px;
@@ -1270,7 +1276,7 @@ table.table_test_type {
         transform: scaleX(-1) rotate(-90deg);
     }
 
-        .percent svg circle {
+        .per svg circle {
             width: 100%;
             height: 100%;
             fill: none;
@@ -1279,13 +1285,13 @@ table.table_test_type {
             stroke-linecap: round;
         }
 
-            .percent svg circle:last-of-type {
+            .per svg circle:last-of-type {
                 stroke-dasharray: 377px;
                 stroke-dashoffset: calc(377px - (377px * var(--percent)) / 100);
                 stroke: #ff2066;
             }
 
-    .percent .number {
+    .per .number {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1294,12 +1300,12 @@ table.table_test_type {
         transform: translate(-50%, -50%);
     }
 
-        .percent .number h3 {
+        .per .number h3 {
             font-weight: 200;
             font-size: 24px;
         }
 
-            .percent .number h3 span {
+            .per .number h3 span {
                 font-size: 24px;
             }
 
@@ -1330,7 +1336,6 @@ table.table_test_type {
 
 .sec_exp .shadow_box {
     background: #FFFFFF;
-    /* Shadow/Primary4 */
     -webkit-box-shadow: 0 2px 4px rgba(255, 45, 102, 0.12);
     box-shadow: 0 2px 4px rgba(255, 45, 102, 0.12);
     border-radius: 12px;
@@ -1361,13 +1366,48 @@ table.table_test_type {
         border-radius: 24px;
     }
 
+/* privacy, terms */
+.box_black {
+    background:rgba(0,0,0,0.2);
+    border-radius: 24px;
+    padding:5%;
+}
+    .box_black .title {
+        font-size: 32px;
+        padding: 12px 0 24px;
+        text-align: center
+    }
+    .box_black .subtit{
+        font-weight:bold;
+        padding: 24px 0 12px
+    }
+.tb_privacy {
+    width:100%;
+    border-collapse: collapse;
+    margin: 16px auto;
+
+}
+    .tb_privacy thead th{
+        background :rgba(0,0,0,0.3)
+    }
+    .tb_privacy th, .tb_privacy td {
+        border: 1px solid #606060;
+        color: #ffffff;
+        padding: 8px;
+    }
+.td_mo{
+    display:none
+}
+
 @media (max-width: 767px) {
     .btn_area.m_col {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        align-items:center
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .btn_area .btn {
@@ -1382,20 +1422,85 @@ table.table_test_type {
     .sec_exp .shadow_box {
         padding: 24px 16px;
     }
+
     .survey input[type=radio] + .radio-label:before {
         width: 1em;
         height: 1em;
     }
+
     .flex_video {
-        flex-direction:column
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
-        .flex_video video{
-            width:100%;
+
+        .flex_video video {
+            width: 100%;
             margin-bottom: 24px;
         }
+
         .flex_video .box_camera {
             width: 100%;
             padding-bottom: 50%;
             background: #efefef;
         }
+        #custom-responsive-table thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        /* table */
+        .tb_privacy,
+        .tb_privacy thead,
+        .tb_privacy tbody,
+        .tb_privacy th,
+        .tb_privacy td,
+        .tb_privacy tr, .td_mo {
+            display: block;
+            font-size: 12px;
+        }
+        .tb_privacy tbody th{
+            background:rgba(0,0,0,0.2)
+        }
+
+            .tb_privacy thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            .tb_privacy tr{
+                border-top:1px solid #efefef;
+            }
+            .tb_privacy th, .tb_privacy td {
+                border-right: none;
+                border-left: none;
+                border-bottom: none;
+            }
+
+            .tb_privacy td {
+                border: none;
+                border-bottom: 1px solid #606060;
+                position: relative;
+                padding-left: 36%;
+                white-space: normal;
+                text-align: left;
+            }
+
+                .tb_privacy td:before {
+                    position: absolute;
+                    top: 6px;
+                    left: 6px;
+                    width: 32%;
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+            /*
+	Label the data
+	*/
+                .tb_privacy td:before {
+                    content: attr(data-title);
+                }
+
 }

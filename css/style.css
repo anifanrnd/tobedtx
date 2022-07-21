@@ -238,17 +238,18 @@ th {
         left: 20px;
         background: rgba(0,0,0,0.9);
     }
+
     .nav_menu.right ul {
         left: auto;
         right: 16px;
     }
 
-        .nav_menu ul a {
-            display: block;
-            padding: 8px 16px;
-            color: #fff;
-            white-space: nowrap;
-        }
+    .nav_menu ul a {
+        display: block;
+        padding: 8px 16px;
+        color: #fff;
+        white-space: nowrap;
+    }
 
     .nav_menu.depth:hover ul {
         display: block;
@@ -264,7 +265,7 @@ th {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../img/main.jpg);
+    background-image: url("../img/main.jpg");
 }
 
 .gradient {
@@ -706,14 +707,14 @@ th {
     }
 
 .message {
-    background: url(../img/quote0.svg) no-repeat 24px 0;
+    background: url("../img/quote0.svg") no-repeat 24px 0;
 }
 
     .message span {
         display: inline-block;
         padding: 40px;
         font-size: 36px;
-        background: url(../img/quote1.svg) no-repeat bottom right;
+        background: url("../img/quote1.svg") no-repeat bottom right;
         display: none;
     }
 
@@ -1013,12 +1014,14 @@ footer {
     .mob_menu_line2 {
         top: 26px;
     }
+
     .nav_menu ul {
         display: block;
         position: static;
         background: rgba(0,0,0,0);
-        text-align:center
+        text-align: center;
     }
+
     /* common */
     .section_title {
         padding-top: 100px;
