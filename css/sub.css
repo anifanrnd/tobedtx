@@ -1366,37 +1366,44 @@ table.table_test_type {
         border-radius: 24px;
     }
 
++
 /* privacy, terms */
 .box_black {
-    background:rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
     border-radius: 24px;
-    padding:5%;
+    padding: 5%;
 }
-    .box_black .title {
-        font-size: 32px;
-        padding: 12px 0 24px;
-        text-align: center
-    }
-    .box_black .subtit{
-        font-weight:bold;
-        padding: 24px 0 12px
-    }
+
+.box_black .title {
+    font-size: 32px;
+    padding: 12px 0 24px;
+    text-align: center;
+}
+
+.box_black .subtit {
+    font-weight: bold;
+    padding: 24px 0 12px;
+}
+
 .tb_privacy {
-    width:100%;
+    width: 100%;
     border-collapse: collapse;
     margin: 16px auto;
-
 }
-    .tb_privacy thead th{
-        background :rgba(0,0,0,0.3)
+
+    .tb_privacy thead th {
+        background: rgba(0,0,0,0.3);
     }
-    .tb_privacy th, .tb_privacy td {
+
+    .tb_privacy td,
+    .tb_privacy th {
         border: 1px solid #606060;
         color: #ffffff;
         padding: 8px;
     }
-.td_mo{
-    display:none
+
+.td_mo {
+    display: none;
 }
 
 @media (max-width: 767px) {
@@ -1445,62 +1452,65 @@ table.table_test_type {
             padding-bottom: 50%;
             background: #efefef;
         }
-        #custom-responsive-table thead tr {
+
+    #custom-responsive-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    /* table */
+    .tb_privacy,
+    .tb_privacy tbody,
+    .tb_privacy td,
+    .tb_privacy th,
+    .tb_privacy thead,
+    .tb_privacy tr,
+    .td_mo {
+        display: block;
+        font-size: 12px;
+    }
+
+        .tb_privacy tbody th {
+            background: rgba(0,0,0,0.2);
+        }
+
+        .tb_privacy thead tr {
             position: absolute;
             top: -9999px;
             left: -9999px;
         }
-        /* table */
-        .tb_privacy,
-        .tb_privacy thead,
-        .tb_privacy tbody,
-        .tb_privacy th,
+
+        .tb_privacy tr {
+            border-top: 1px solid #efefef;
+        }
+
         .tb_privacy td,
-        .tb_privacy tr, .td_mo {
-            display: block;
-            font-size: 12px;
-        }
-        .tb_privacy tbody th{
-            background:rgba(0,0,0,0.2)
+        .tb_privacy th {
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
         }
 
-            .tb_privacy thead tr {
+        .tb_privacy td {
+            border: none;
+            border-bottom: 1px solid #606060;
+            position: relative;
+            padding-left: 36%;
+            white-space: normal;
+            text-align: left;
+        }
+
+            .tb_privacy td:before {
                 position: absolute;
-                top: -9999px;
-                left: -9999px;
-            }
-            .tb_privacy tr{
-                border-top:1px solid #efefef;
-            }
-            .tb_privacy th, .tb_privacy td {
-                border-right: none;
-                border-left: none;
-                border-bottom: none;
+                top: 6px;
+                left: 6px;
+                width: 32%;
+                text-align: center;
+                font-weight: bold;
             }
 
-            .tb_privacy td {
-                border: none;
-                border-bottom: 1px solid #606060;
-                position: relative;
-                padding-left: 36%;
-                white-space: normal;
-                text-align: left;
+            /* Label the data */
+            .tb_privacy td:before {
+                content: attr(data-title);
             }
-
-                .tb_privacy td:before {
-                    position: absolute;
-                    top: 6px;
-                    left: 6px;
-                    width: 32%;
-                    text-align: center;
-                    font-weight: bold;
-                }
-
-            /*
-	Label the data
-	*/
-                .tb_privacy td:before {
-                    content: attr(data-title);
-                }
-
 }
