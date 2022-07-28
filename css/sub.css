@@ -1331,7 +1331,6 @@ table.table_test_type {
 
     .flex_video .box_camera {
         width: 49%;
-        background: #efefef;
     }
 
 .sec_exp .shadow_box {
@@ -1366,7 +1365,7 @@ table.table_test_type {
         border-radius: 24px;
     }
 
-+
+
 /* privacy, terms */
 .box_black {
     background: rgba(0,0,0,0.2);
@@ -1374,16 +1373,16 @@ table.table_test_type {
     padding: 5%;
 }
 
-.box_black .title {
-    font-size: 32px;
-    padding: 12px 0 24px;
-    text-align: center;
-}
+    .box_black .tit {
+        font-size: 32px;
+        padding: 12px 0 24px;
+        text-align: center;
+    }
 
-.box_black .subtit {
-    font-weight: bold;
-    padding: 24px 0 12px;
-}
+    .box_black .article_tit {
+        font-weight: bold;
+        padding: 24px 0 12px;
+    }
 
 .tb_privacy {
     width: 100%;
@@ -1449,8 +1448,6 @@ table.table_test_type {
 
         .flex_video .box_camera {
             width: 100%;
-            padding-bottom: 50%;
-            background: #efefef;
         }
 
     #custom-responsive-table thead tr {

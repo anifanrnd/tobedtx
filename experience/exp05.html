@@ -44,6 +44,14 @@
                         </video>
                         <div class="box_camera">
                             <!-- 홍채카메라 -->
+                            <div id="faceView" value="측정에 필요한 캔버스" style="transform: scaleX(-1);">
+                                <video class="" id="input_video" value="원본비디오"
+                                       style="display:block; width: 100%;" playsinline></video>
+                                <canvas class="canvas" id="mid_canvas" value="원본에 영상처리를 적용하기 위한 캔버스"
+                                        style="display:none; width: 100%;" height="280px"></canvas>
+                                <canvas class="canvas" id="output_canvas" value="최종 보여지는 캔버스"
+                                        style="display:none; width: 100%;" height="280px"></canvas>
+                            </div>
                         </div>
                     </div>
                     <div class="desc">
